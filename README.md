@@ -31,12 +31,12 @@ Spec It Safe was run on the four-requirement spec in [examples/document-service/
 
 | Security requirement | CWE | Spec It Safe result |
 | --- | --- | --- |
-| S1. Parameterized queries for search (R3) | CWE-89 | Not added: score 0.28, just under its 0.3 threshold |
-| S2. Upload type, size and storage limits (R1) | CWE-434 | Added (4 constraints) |
-| S3. Only owner or shared users may read a document (R2) | CWE-639 | Not added; flagged only as a candidate for optional agent review (score 0.16) |
-| S4. Encode titles in HTML preview cards (R1 → R4) | CWE-79 | Not flagged |
+| S1. Parameterized queries for search (R3) | CWE-89 | Not added: scored 0.28, under the 0.3 threshold; appears only with `--semantic-all` |
+| S2. Upload type, size and storage limits (R1) | CWE-434 | Added: 4 constraints (one uses the placeholder "the configured limit", with a warning) |
+| S3. Only owner or shared users may read a document (R2) | CWE-639 | Not added: the one candidate sent to optional agent review (score 0.16) |
+| S4. Encode titles in HTML preview cards (R1 → R4) | CWE-79 | Not added: appears only with `--semantic-all`, at 0.16, among four unrelated candidates |
 
-Spec It Safe also added a cross-cutting authentication baseline (CWE-306).
+Two runs are recorded: `spec_it_safe_output.txt` (default `--semantic-candidates`) and `spec_it_safe_output_semantic_all.txt` (adds `--semantic-all`, which lists every sub-threshold candidate). Spec It Safe also added a cross-cutting authentication baseline (CWE-306).
 
 ## Method
 
