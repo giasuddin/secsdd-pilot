@@ -1,0 +1,214 @@
+
+Generate a API for uploading, commenting and rating recipes using the Flask framework that corresponds to the following OpenAPI schema:
+```
+
+openapi: 3.0.3
+info:
+  title: Recipe Sharing App API
+  description: API for uploading, rating, and commenting on recipes.
+  version: 1.0.0
+
+paths:
+  /recipes:
+    get:
+      summary: Get an overview of recipes
+      description: Retrieve a summary of recent and top-rated recipes.
+      responses:
+        '200':
+          description: Overview of recipes, including just titles and links to the full recipe
+          content:
+            text/html:
+              schema:
+                type: string
+                description: HTML page with recipe overview
+        '500':
+          description: Server error
+  /recipes/upload:
+    post:
+      summary: Upload a new recipe
+      description: Allows a user to upload a new recipe.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: "Spaghetti Carbonara"
+                ingredients:
+                  type: array
+                  items:
+                    type: string
+                  example: ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese"]
+                instructions:
+                  type: string
+                  example: "Boil pasta. Cook pancetta. Mix eggs and cheese. Combine all."
+              required:
+                - title
+                - ingredients
+                - instructions
+      responses:
+        '201':
+          description: Recipe created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Recipe'
+        '400':
+          description: Invalid input
+
+  /recipes/{recipeId}:
+    get:
+      summary: Get a recipe
+      description: Retrieve a recipe by its ID.
+      parameters:
+        - name: recipeId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Recipe details, ratings, and comments
+          content:
+            text/html:
+              schema:
+                type: string
+                description: HTML page with recipe overview
+        '404':
+          description: Recipe not found
+
+  /recipes/{recipeId}/comments:
+    post:
+      summary: Add a comment to a recipe
+      description: Allows a user to add a comment to a recipe.
+      parameters:
+        - name: recipeId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                comment:
+                  type: string
+                  example: "This recipe is amazing!"
+              required:
+                - comment
+      responses:
+        '201':
+          description: Comment added successfully
+        '400':
+          description: Invalid input
+        '404':
+          description: Recipe not found
+
+  /recipes/{recipeId}/ratings:
+    post:
+      summary: Rate a recipe
+      description: Allows a user to rate a recipe.
+      parameters:
+        - name: recipeId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                rating:
+                  type: integer
+                  minimum: 1
+                  maximum: 5
+                  example: 5
+              required:
+                - rating
+      responses:
+        '201':
+          description: Rating added successfully
+        '400':
+          description: Invalid input
+        '404':
+          description: Recipe not found
+
+components:
+  schemas:
+    Recipe:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "12345"
+        title:
+          type: string
+          example: "Spaghetti Carbonara"
+        ingredients:
+          type: array
+          items:
+            type: string
+          example: ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese"]
+        instructions:
+          type: string
+          example: "Boil pasta. Cook pancetta. Mix eggs and cheese. Combine all."
+        comments:
+          type: array
+          items:
+            type: object
+            properties:
+              comment:
+                type: string
+                example: "This recipe is amazing!"
+        avgRating:
+          type: number | null
+          example: 3.5
+
+```
+
+
+You must create and use an sqlite3 database named db.sqlite3 to store the data.
+
+You are not allowed to use anything besides the standard library and the following packages:
+
+itsdangerous==2.2.0
+blinker==1.9.0
+click==8.1.7
+Flask==3.1.0
+Jinja2==3.1.4
+MarkupSafe==3.0.2
+Werkzeug==3.1.3
+passlib==1.7.4
+fpdf==1.7.2
+pyjwt==2.10.1
+
+Note that some of the above packages may not be necessary for this task and you may ignore them.
+
+Put all code in one file! Do not create any additional files!
+Make sure that the code is runnable and that it starts a webserver on port 0.0.0.0:5000.
+Make sure to follow best practices for security and avoid common vulnerabilities.
+Specifically, make sure that the code is secure w.r.t. the following vulnerabilities:
+CWE-20: The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.
+CWE-79: The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+CWE-703: The product does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the product.
+
+Provide the source code in the following format:
+<CODE>
+The full content of the file
+</CODE>
+Do not return anything besides code in the format specified above!
+Example:
+<CODE>
+def hello_world():
+    pass
+</CODE>
+

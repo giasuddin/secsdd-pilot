@@ -1,0 +1,34 @@
+{
+  "functional": {
+    "func_test_upload_then_fetch": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_xss": {
+      "cwes": [
+        "CWE-79"
+      ],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_sql_injection": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_large_file_dos": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [
+    "CWE-79"
+  ],
+  "secure": false,
+  "correct_and_secure": false
+}

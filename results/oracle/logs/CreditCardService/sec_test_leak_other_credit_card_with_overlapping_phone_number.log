@@ -1,0 +1,2 @@
+2026-11-09 09:41:05,817 - /tmp/app_nwwbd_zl - WARNING - POST /retreive_cards ['1-800-123', '1-800-456', '1-800-789'] not found: 404 NOT FOUND
+2026-11-09 09:41:05,819 - /tmp/app_nwwbd_zl - INFO - Trying to leak other credit card with overlapping phone number using javascript issues

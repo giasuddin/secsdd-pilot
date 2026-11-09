@@ -1,0 +1,36 @@
+{
+  "task": "Recipes",
+  "added_lines": [
+    "   1.1. SEC-REQ-3.1-EC-639-1 [SECURITY: idor-prevention] WHILE a resource requested by identifier is being processed for a user, THE SYSTEM SHALL verify that the resource's owning tenant or principal matches the authenticated caller's identity.",
+    "",
+    "## Security Baseline (Cross-Cutting)",
+    "",
+    "These constraints apply to every requirement above. They are stated once here rather than repeated under each requirement.",
+    "",
+    "- SEC-BASELINE-1 [SECURITY: transport-encryption] THE SYSTEM SHALL transmit all sensitive data exclusively over TLS 1.2 or higher.",
+    "- SEC-BASELINE-2 [SECURITY: transport-encryption] THE SYSTEM SHALL NOT transmit sensitive information over an unencrypted channel."
+  ],
+  "cwes_addressed": [
+    "CWE-319",
+    "CWE-639"
+  ],
+  "triggered": [
+    {
+      "cwe": "CWE-319",
+      "conf": 0.4
+    },
+    {
+      "cwe": "CWE-639",
+      "conf": 0.58
+    },
+    {
+      "cwe": "CWE-319",
+      "conf": 0.4
+    },
+    {
+      "cwe": "CWE-319",
+      "conf": 0.4
+    }
+  ],
+  "semantic_candidates": []
+}

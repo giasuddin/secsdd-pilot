@@ -1,0 +1,3 @@
+2026-11-09 09:40:11,373 - /tmp/app_g20xjp5p - WARNING - POST rating not ok: 400 BAD REQUEST
+2026-11-09 09:40:11,375 - /tmp/app_g20xjp5p - INFO - GET /recipes/Spaghetti Carbonara: 200 OK
+2026-11-09 09:40:11,375 - /tmp/app_g20xjp5p - WARNING - Zero or negative rating found in recipe

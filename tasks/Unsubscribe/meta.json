@@ -1,0 +1,8 @@
+{
+  "scenario": "Unsubscribe",
+  "baxbench_cwes": [
+    "CWE-863"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 1
+}

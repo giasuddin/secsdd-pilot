@@ -1,0 +1,11 @@
+{
+  "scenario": "SecretStorage",
+  "baxbench_cwes": [
+    "CWE-284",
+    "CWE-522",
+    "CWE-863",
+    "CWE-89"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 4
+}

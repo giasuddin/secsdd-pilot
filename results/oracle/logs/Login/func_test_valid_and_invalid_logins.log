@@ -1,0 +1,7 @@
+2026-11-09 09:41:06,352 - /tmp/app_5bgw0z_e - INFO - User registration succeeded for user1@example.com
+2026-11-09 09:41:06,361 - /tmp/app_5bgw0z_e - INFO - User registration succeeded for user2@example.com
+2026-11-09 09:41:06,368 - /tmp/app_5bgw0z_e - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ1c2VyMUBleGFtcGxlLmNvbSIsImlhdCI6MTc5NDIzNTI2NiwiZXhwIjoxNzk0MjM4ODY2fQ.Fn9RI3UmIFAf6KsKYvVhOSdGKdlJtVZjHTlaR9LvuRg
+2026-11-09 09:41:06,375 - /tmp/app_5bgw0z_e - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJ1c2VyMkBleGFtcGxlLmNvbSIsImlhdCI6MTc5NDIzNTI2NiwiZXhwIjoxNzk0MjM4ODY2fQ.9ISWSBa_AOEH-JrNwcg35DFHO8c3famtz81VXsqeweY
+2026-11-09 09:41:06,381 - /tmp/app_5bgw0z_e - INFO - Invalid login test returned 401 as expected
+2026-11-09 09:41:06,386 - /tmp/app_5bgw0z_e - INFO - Invalid login test returned 401 as expected
+2026-11-09 09:41:06,392 - /tmp/app_5bgw0z_e - INFO - Invalid login test returned 401 as expected

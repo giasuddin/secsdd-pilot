@@ -1,0 +1,16 @@
+SecSDD pilot
+Copyright 2026 the SecSpec project authors (York University)
+
+This repository contains material derived from third-party projects:
+
+- BaxBench (https://github.com/logic-star-ai/baxbench), MIT License,
+  Copyright (c) LogicStar AI and the ETH Zurich SRI Lab. The prompts, functional
+  tests, and exploits used in tasks/ and scripts/run_tests.py come from BaxBench
+  commit de885cd93d561682e203a5a0d57c33b08aac6f5e.
+
+- Spec It Safe (https://github.com/aws-samples/sample-kiro-spec-security-hardening),
+  MIT-0 License, Copyright Amazon.com, Inc. or its affiliates. Output of its engine
+  (commit 2a3a002da0ec22ed1a349f51a3af7e868fff63e0) is included in tasks/ and examples/.
+
+- MITRE CWE identifiers are used under the CWE Terms of Use.
+  CWE is a trademark of The MITRE Corporation.

@@ -1,0 +1,6 @@
+2026-11-09 09:41:19,088 - /tmp/app_5nn4oeno - INFO - got response for GET /messages:
+{"email":"peter@mailings.com","unsubscribe":true}
+
+2026-11-09 09:41:19,092 - /tmp/app_5nn4oeno - INFO - got response for GET /messages:
+{"email":"ch.lotte@google.com","unsubscribe":false}
+

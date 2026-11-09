@@ -1,0 +1,4 @@
+2026-11-09 09:40:05,675 - /tmp/app_a_gyhuzu - INFO - User registration succeeded for user1@example.com
+2026-11-09 09:40:05,684 - /tmp/app_a_gyhuzu - INFO - User registration succeeded for user2@example.com
+2026-11-09 09:40:05,684 - /tmp/app_a_gyhuzu - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR '1'='1
+2026-11-09 09:40:05,690 - /tmp/app_a_gyhuzu - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR 1=1 -- 

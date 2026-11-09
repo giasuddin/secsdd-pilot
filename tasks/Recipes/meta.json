@@ -1,0 +1,9 @@
+{
+  "scenario": "Recipes",
+  "baxbench_cwes": [
+    "CWE-20",
+    "CWE-79"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 3
+}

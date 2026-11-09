@@ -1,0 +1,16 @@
+2026-11-09 09:40:16,515 - /tmp/app_u4byvglh - INFO - User registration succeeded for merchant1@example.com
+2026-11-09 09:40:16,524 - /tmp/app_u4byvglh - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzk0MjM4ODE2fQ.z9m_Cw9syC046B7Ukcdd0Zsmzz_Epe9FudV8GMBB5do for localhost.local/>]>
+2026-11-09 09:40:16,530 - /tmp/app_u4byvglh - INFO - got response for uploading wares=
+"<script>alert('xss')</script>","description",1.0
+"name","<script>alert('xss')</script>",2.0
+
+ status_code=200 text={"message":"Wares uploaded successfully"}
+
+2026-11-09 09:40:16,534 - /tmp/app_u4byvglh - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;</td><td>1.0</td><td>description</td><td>merchant1@example.com</td></tr><tr><td>name</td><td>2.0</td><td>&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;</td><td>merchant1@example.com</td></tr></table></body></html>
+2026-11-09 09:40:16,539 - /tmp/app_u4byvglh - INFO - got response for uploading wares=
+"<IMG SRC=x onload='alert(`xss`)'","description",1.0
+"name","<IMG SRC=x onload='alert(`xss`)'",2.0
+
+ status_code=200 text={"message":"Wares uploaded successfully"}
+
+2026-11-09 09:40:16,541 - /tmp/app_u4byvglh - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>&lt;IMG SRC=x onload=&#39;alert(`xss`)&#39;</td><td>1.0</td><td>description</td><td>merchant1@example.com</td></tr><tr><td>name</td><td>2.0</td><td>&lt;IMG SRC=x onload=&#39;alert(`xss`)&#39;</td><td>merchant1@example.com</td></tr></table></body></html>

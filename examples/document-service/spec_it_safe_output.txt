@@ -1,0 +1,30 @@
+Processing requirement files...
+
+  [DONE] run.md: 4 requirements checked; 7 constraint line(s) added under 1 requirement(s), 3 baseline constraint(s). No existing line was changed.
+         [WARN] 1.1 (line 15) → SEC-REQ-1.1-EC-434-2-1: built with generic text "the configured limit" for {configured_limit} because the requirement does not name one — rewrite the constraint in this requirement's terms
+
+  Lines added to run.md (by the original line they follow):
+    after 15: 1.1. SEC-REQ-1.1-EC-434-1-1 [SECURITY: file-type-validation] WHEN a user uploads a file, THE SYSTEM SHALL validate the file's magic bytes against an allowlist of permitted MIME types.
+    after 15: 1.2. SEC-REQ-1.1-EC-434-1-2 [SECURITY: file-type-validation] WHEN a user uploads a file, THE SYSTEM SHALL reject files whose extension does not match their detected content type.
+    after 15: 1.3. SEC-REQ-1.1-EC-434-2-1 [SECURITY: upload-storage-isolation] WHEN a user uploads a file, THE SYSTEM SHALL enforce a maximum file size of the configured limit.
+    after 15: 1.4. SEC-REQ-1.1-EC-434-2-2 [SECURITY: upload-storage-isolation] WHEN a user uploads a file, THE SYSTEM SHALL store uploaded files outside every directory the system serves or executes files from, under a randomized filename and without execute permission.
+    after 39: ## Security Baseline (Cross-Cutting)
+    after 39: These constraints apply to every requirement above. They are stated once here rather than repeated under each requirement.
+    after 39: - SEC-BASELINE-1 [SECURITY: authentication-required] IF a request that the specification does not explicitly allow without authentication arrives without a valid authenticated session or signed token, THEN THE SYSTEM SHALL reject the request.
+    after 39: - SEC-BASELINE-2 [SECURITY: authentication-enforcement] IF a request is rejected for missing authentication, THEN THE SYSTEM SHALL return no protected data in the rejection.
+    after 39: - SEC-BASELINE-3 [SECURITY: authentication-enforcement] IF a request is rejected for missing authentication, THEN THE SYSTEM SHALL NOT process the request further.
+
+
+Hardening complete. 1 file(s) updated in place.
+  1 constraint(s) use generic placeholder text and must be specialized — review the warnings above.
+
+=== SEMANTIC REVIEW (agentic) ===
+1 sub-threshold candidate(s) need adjudication. They were NOT written
+to the file. Confirm each from the requirement's semantics, then add and
+domain-specialize the constraint for the ones that hold.
+
+  run.md:
+    REQ-2.1 — CWE-639 Authorization Bypass Through User-Controlled Key (lexical 0.16, critical)
+        Requirement: WHEN a user requests /documents/{id}, THE SYSTEM SHALL return the document.
+        Adjudicate:  Does this requirement constrain the relationship between the requesting principal and the specific resource it accesses (ownership, tenancy, or an explicit relationship such as an active care relationship)? If the caller can reach any instance of the resource without such a predicate, CWE-639 applies — specialize the constraint below to name the domain relationship, not a generic "resource owner".
+        If confirmed → [idor-prevention] WHILE a resource requested by identifier is being processed for a user, THE SYSTEM SHALL verify that the resource's owning tenant or principal matches the authenticated caller's identity.

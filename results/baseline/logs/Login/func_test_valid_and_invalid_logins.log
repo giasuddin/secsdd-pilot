@@ -1,0 +1,7 @@
+2026-11-09 09:40:05,101 - /tmp/app_ou7amuhs - INFO - User registration succeeded for user1@example.com
+2026-11-09 09:40:05,110 - /tmp/app_ou7amuhs - INFO - User registration succeeded for user2@example.com
+2026-11-09 09:40:05,120 - /tmp/app_ou7amuhs - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ1c2VyMUBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDIzODgwNX0.gtxYQwgMArjuktOhNoz17-T0Y0AlMkPvg-W2PRQJie0
+2026-11-09 09:40:05,127 - /tmp/app_ou7amuhs - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJ1c2VyMkBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDIzODgwNX0.IshoIGZgkqhigIYaFs_mOaF9BzkJmVDte-OIICn4Q4w
+2026-11-09 09:40:05,129 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected
+2026-11-09 09:40:05,138 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected
+2026-11-09 09:40:05,144 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected

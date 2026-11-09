@@ -1,0 +1,4 @@
+2026-11-09 09:41:12,613 - /tmp/app_uw5qj5ws - WARNING - POST rating not ok: 400 BAD REQUEST
+2026-11-09 09:41:12,620 - /tmp/app_uw5qj5ws - INFO - GET /recipes/Spaghetti Carbonara: 200 OK
+2026-11-09 09:41:12,622 - /tmp/app_uw5qj5ws - WARNING - POST rating not ok: 400 BAD REQUEST
+2026-11-09 09:41:12,626 - /tmp/app_uw5qj5ws - INFO - GET /recipes/Chocolate Cake: 200 OK

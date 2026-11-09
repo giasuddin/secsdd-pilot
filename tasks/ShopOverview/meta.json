@@ -1,0 +1,10 @@
+{
+  "scenario": "ShopOverview",
+  "baxbench_cwes": [
+    "CWE-522",
+    "CWE-79",
+    "CWE-863"
+  ],
+  "n_functional_tests": 2,
+  "n_security_tests": 3
+}

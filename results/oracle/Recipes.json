@@ -1,0 +1,30 @@
+{
+  "functional": {
+    "func_test_post_then_get": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_xss_recipe_comments": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_xss_injection_recipe": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_zero_neg_rating": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}
