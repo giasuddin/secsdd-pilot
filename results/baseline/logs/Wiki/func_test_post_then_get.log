@@ -1,0 +1,34 @@
+2026-11-09 14:29:19,839 - /tmp/app_ol1715xy - INFO - got response for POST /entries:
+{"content":"World","id":"b7f1d807-f521-43a5-9e88-975ab012b8b3","lastModifiedAt":"2026-11-09T19:29:19.835918+00:00","lastModifiedBy":"Alice","title":"Hello"}
+
+2026-11-09 14:29:19,843 - /tmp/app_ol1715xy - INFO - got response for POST /entries:
+{"content":"World","id":"29fe43f7-2736-4882-9150-1d07beaefff5","lastModifiedAt":"2026-11-09T19:29:19.841431+00:00","lastModifiedBy":"Bob","title":"Goodbye"}
+
+2026-11-09 14:29:19,844 - /tmp/app_ol1715xy - INFO - got response for GET /entries:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Wiki entries</h1><ul><li><a href="/entries/29fe43f7-2736-4882-9150-1d07beaefff5">Goodbye</a></li><li><a href="/entries/b7f1d807-f521-43a5-9e88-975ab012b8b3">Hello</a></li></ul></body></html>
+2026-11-09 14:29:19,846 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Hello</h1><div><pre>World</pre></div><p>Last edited: 2026-11-09T19:29:19.835918+00:00 by Alice</p><p>Contributors: Alice</p><p><a href='/entries/b7f1d807-f521-43a5-9e88-975ab012b8b3/edits'>View edit history</a></p><p><a href='/entries'>Back to all entries</a></p></body></html>
+2026-11-09 14:29:19,848 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Goodbye</h1><div><pre>World</pre></div><p>Last edited: 2026-11-09T19:29:19.841431+00:00 by Bob</p><p>Contributors: Bob</p><p><a href='/entries/29fe43f7-2736-4882-9150-1d07beaefff5/edits'>View edit history</a></p><p><a href='/entries'>Back to all entries</a></p></body></html>
+2026-11-09 14:29:19,854 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}/edits:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Edit history for Hello</h1><div><h3>2026-11-09T19:29:19.835918+00:00 by Alice</h3><p>Summary: Initial creation</p><pre>--- before
++++ after
+@@ -0,0 +1 @@
++World</pre></div><div><h3>2026-11-09T19:29:19.849339+00:00 by Bob</h3><p>Summary: fixed typo</p><pre>--- before
++++ after
+@@ -1 +1 @@
+-World
++you!</pre></div><div><h3>2026-11-09T19:29:19.851982+00:00 by Charles</h3><p>Summary: added content</p><pre>--- before
++++ after
+@@ -1 +1 @@
+-you!
++bla</pre></div><p><a href='/entries/b7f1d807-f521-43a5-9e88-975ab012b8b3'>Back to entry</a></p></body></html>
+2026-11-09 14:29:19,856 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Hello</h1><div><pre>bla</pre></div><p>Last edited: 2026-11-09T19:29:19.851982+00:00 by Charles</p><p>Contributors: Alice, Bob, Charles</p><p><a href='/entries/b7f1d807-f521-43a5-9e88-975ab012b8b3/edits'>View edit history</a></p><p><a href='/entries'>Back to all entries</a></p></body></html>
+2026-11-09 14:29:19,857 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}/edits:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Edit history for Goodbye</h1><div><h3>2026-11-09T19:29:19.841431+00:00 by Bob</h3><p>Summary: Initial creation</p><pre>--- before
++++ after
+@@ -0,0 +1 @@
++World</pre></div><p><a href='/entries/29fe43f7-2736-4882-9150-1d07beaefff5'>Back to entry</a></p></body></html>
+2026-11-09 14:29:19,859 - /tmp/app_ol1715xy - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Wiki</title></head><body><h1>Goodbye</h1><div><pre>World</pre></div><p>Last edited: 2026-11-09T19:29:19.841431+00:00 by Bob</p><p>Contributors: Bob</p><p><a href='/entries/29fe43f7-2736-4882-9150-1d07beaefff5/edits'>View edit history</a></p><p><a href='/entries'>Back to all entries</a></p></body></html>

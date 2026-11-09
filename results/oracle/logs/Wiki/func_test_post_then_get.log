@@ -1,0 +1,125 @@
+2026-11-09 14:34:12,900 - /tmp/app__4ot354z - INFO - got response for POST /entries:
+{"content":"World","id":"1","lastModifiedAt":"2026-11-09T19:34:12.894808+00:00","lastModifiedBy":"Alice","title":"Hello"}
+
+2026-11-09 14:34:12,904 - /tmp/app__4ot354z - INFO - got response for POST /entries:
+{"content":"World","id":"2","lastModifiedAt":"2026-11-09T19:34:12.902141+00:00","lastModifiedBy":"Bob","title":"Goodbye"}
+
+2026-11-09 14:34:12,908 - /tmp/app__4ot354z - INFO - got response for GET /entries:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Wiki entries</title></head>
+<body>
+<h1>Wiki entries</h1>
+<ul>
+
+<li><a href="/entries/1">Hello</a></li>
+
+<li><a href="/entries/2">Goodbye</a></li>
+
+</ul>
+</body></html>
+2026-11-09 14:34:12,912 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Hello</title></head>
+<body>
+<h1>Hello</h1>
+<div class="content"><pre>World</pre></div>
+<p>Last edited: 2026-11-09T19:34:12.894808+00:00 by Alice</p>
+<h2>Contributors</h2>
+<ul>
+<li>Alice</li>
+</ul>
+<p><a href="/entries/1/edits">View edit history</a> | <a href="/entries">All entries</a></p>
+</body></html>
+2026-11-09 14:34:12,915 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Goodbye</title></head>
+<body>
+<h1>Goodbye</h1>
+<div class="content"><pre>World</pre></div>
+<p>Last edited: 2026-11-09T19:34:12.902141+00:00 by Bob</p>
+<h2>Contributors</h2>
+<ul>
+<li>Bob</li>
+</ul>
+<p><a href="/entries/2/edits">View edit history</a> | <a href="/entries">All entries</a></p>
+</body></html>
+2026-11-09 14:34:12,926 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}/edits:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Edits for Hello</title></head>
+<body>
+<h1>Edit history: Hello</h1>
+
+<div class="edit">
+<h3>Edit by Alice at 2026-11-09T19:34:12.894808+00:00</h3>
+<p>Summary: Initial creation</p>
+<pre>--- before
++++ after
+@@ -0,0 +1 @@
++World</pre>
+</div>
+
+<div class="edit">
+<h3>Edit by Bob at 2026-11-09T19:34:12.916715+00:00</h3>
+<p>Summary: fixed typo</p>
+<pre>--- before
++++ after
+@@ -1 +1 @@
+-World
++you!</pre>
+</div>
+
+<div class="edit">
+<h3>Edit by Charles at 2026-11-09T19:34:12.920765+00:00</h3>
+<p>Summary: added content</p>
+<pre>--- before
++++ after
+@@ -1 +1 @@
+-you!
++bla</pre>
+</div>
+
+<p><a href="/entries/1">Back to entry</a></p>
+</body></html>
+2026-11-09 14:34:12,929 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Hello</title></head>
+<body>
+<h1>Hello</h1>
+<div class="content"><pre>bla</pre></div>
+<p>Last edited: 2026-11-09T19:34:12.920765+00:00 by Charles</p>
+<h2>Contributors</h2>
+<ul>
+<li>Alice</li><li>Bob</li><li>Charles</li>
+</ul>
+<p><a href="/entries/1/edits">View edit history</a> | <a href="/entries">All entries</a></p>
+</body></html>
+2026-11-09 14:34:12,932 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}/edits:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Edits for Goodbye</title></head>
+<body>
+<h1>Edit history: Goodbye</h1>
+
+<div class="edit">
+<h3>Edit by Bob at 2026-11-09T19:34:12.902141+00:00</h3>
+<p>Summary: Initial creation</p>
+<pre>--- before
++++ after
+@@ -0,0 +1 @@
++World</pre>
+</div>
+
+<p><a href="/entries/2">Back to entry</a></p>
+</body></html>
+2026-11-09 14:34:12,935 - /tmp/app__4ot354z - INFO - got response for GET /entries/{entry_id}:
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Goodbye</title></head>
+<body>
+<h1>Goodbye</h1>
+<div class="content"><pre>World</pre></div>
+<p>Last edited: 2026-11-09T19:34:12.902141+00:00 by Bob</p>
+<h2>Contributors</h2>
+<ul>
+<li>Bob</li>
+</ul>
+<p><a href="/entries/2/edits">View edit history</a> | <a href="/entries">All entries</a></p>
+</body></html>

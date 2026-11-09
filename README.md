@@ -1,27 +1,30 @@
 # SecSDD pilot: does spec hardening make agent-written code more secure?
 
-This repository holds a small pilot study for the SecSpec proposal (Amazon Research Awards, Fall 2026). It asks two questions on eight [BaxBench](https://github.com/logic-star-ai/baxbench) scenarios:
+This repository holds a small pilot study for the SecSpec proposal (Amazon Research Awards, Fall 2026). It asks two questions on all 28 [BaxBench](https://github.com/logic-star-ai/baxbench) scenarios:
 
 1. **Elicitation.** When [Spec It Safe](https://github.com/aws-samples/sample-kiro-spec-security-hardening) hardens a functional EARS spec, does it add the security requirements that BaxBench's exploits actually test?
 2. **Effect on code.** Does giving a code generator Spec It Safe's added security lines change how many generated apps are correct and secure?
 
 It also includes the proposal's running example (a team document service) and Spec It Safe's actual output on it.
 
-**This is a pilot.** It uses 8 scenarios, one framework (Python-Flask), one generator model, and one sample per task and condition. The results are indicative, not statistically conclusive.
+**This is a pilot.** It uses all 28 BaxBench scenarios, one framework (Python-Flask), one generator model, and one sample per task and condition. The results are indicative, not statistically conclusive.
 
 ## Results at a glance
 
 | Measure | A. Functional spec only | B. + Spec It Safe lines | C. + exact CWEs named (oracle) |
 | --- | --- | --- | --- |
-| Functionally correct | 8/8 | 4/8 | 8/8 |
-| Correct and secure (BaxBench sec_pass@1) | 5/8 | 3/8 | 7/8 |
-| Apps with a successful exploit | 3/8 | 1/8 | 1/8 |
+| Functionally correct | 27/28 | 16/28 | 27/28 |
+| Correct and secure (BaxBench sec_pass@1) | 18/28 (64%) | 14/28 (50%) | 24/28 (86%) |
+| Apps with a successful exploit | 9/28 | 2/28 | 3/28 |
 
-**Elicitation:** across the 8 scenarios, BaxBench tests 21 CWEs. Spec It Safe added constraints for **0 of 21** by exact CWE ID. Counting related access-control and credential constraints as matches, it added **3 of 21**. Most of its added lines were transport-encryption (CWE-319), rate-limiting (CWE-307) and timing (CWE-208) requirements, which BaxBench does not test.
+Paired exact McNemar tests against A: B lost 11 functionally correct apps and gained none (p = 0.001). For correct-and-secure, B had 4 gains and 8 losses (p = 0.39); C had 7 gains and 1 loss (p = 0.07).
+
+**Elicitation:** across the 28 scenarios, BaxBench tests 64 CWEs (CWE-703 excluded). Spec It Safe added constraints for **2 of 64** by exact CWE ID (CWE-400 in Monitor, CWE-22 in SongDownloader). Counting related access-control and credential constraints as matches, it added **6 of 64**. Most added lines were transport encryption (CWE-319, in 27 tasks), a default authentication requirement (CWE-306, in 10 tasks), timing (CWE-208) and rate limiting (CWE-307). BaxBench tests none of these.
 
 **Effect on code:**
-- **Condition B broke functionality in 4 of 8 apps.** In all four, the generator added a minimum password length of 8 characters, which no requirement asked for. BaxBench's functional tests then failed because they register users with short passwords. This is a real risk: security text in the spec can push an agent to over-restrict, so conformance has to be checked against functional tests as well as exploits.
-- **Naming the right CWEs (condition C) raised correct-and-secure apps from 5/8 to 7/8.** This is an upper bound on what better elicitation could give the agent. It supports the proposal's focus on finding the *right* security requirements and checking them.
+- **Condition B broke functionality in 12 of 28 apps.** Seven failures came from the authentication line (CWE-306): the generator required credentials on every endpoint, so BaxBench's unauthenticated functional tests got HTTP 401 (Compiler, ImageTransfer, Monitor, PDFCat, RecommendationService, RegexSearch, SongDownloader). Four came from a minimum password length that no requirement asked for (Login, SecretStorage, ShopOverview, UserCreation). One came from a changed GIF frame duration (ImageConverter). Security text in a spec can push an agent to over-restrict, so conformance must be checked against functional tests as well as exploits.
+- **B's lower exploit count is only partly real.** Of the 9 apps exploited under A, 4 were correct and unexploited under B (Calculator, Recipes, UptimeService, ZipToTxt). Three others avoided exploits only because they failed functionally (ImageConverter, RegexSearch, SecretStorage), and 2 were still exploited (PDFToText, ProfileCollection).
+- **Naming the right CWEs (condition C) raised correct-and-secure apps from 18/28 to 24/28.** This is an upper bound on what better elicitation could give the agent. It supports the proposal's focus on finding the *right* security requirements and checking them. Three oracle apps were still exploited (PDFToText and RegexSearch CWE-400, SecretStorage CWE-522), so naming a CWE is not enough without verification.
 
 Full per-task tables are in [results/RESULTS.md](results/RESULTS.md). Raw results are in `results/<condition>/<task>.json`, and test logs are in `results/<condition>/logs/`.
 
@@ -41,7 +44,7 @@ Two runs are recorded: `spec_it_safe_output.txt` (default `--semantic-candidates
 ## Method
 
 ### Tasks
-We used eight BaxBench scenarios: CreditCardService, Login, ProfileCollection, Recipes, SecretStorage, ShopOverview, Unsubscribe and UserCreation. We chose them because their exploits run over HTTP or inspect the app's SQLite file, so they can be run without Docker (see below). Ground truth is BaxBench's own set of CWEs for each scenario, which is inferred from its security tests. We excluded CWE-703, which BaxBench adds to every scenario.
+We used all 28 BaxBench scenarios. (An earlier version of this pilot used 8 scenarios whose exploits needed no container access.) Ground truth is BaxBench's own set of CWEs for each scenario, which is inferred from its security tests. We excluded CWE-703, which BaxBench adds to every scenario.
 
 ### Specs
 `scripts/make_tasks.py` turns each scenario's OpenAPI spec into a Kiro-style `requirements.md`. It writes one EARS requirement per API operation, built mechanically from the operation's description: *"WHEN a client sends a POST request to /login, THE SYSTEM SHALL authenticate a user with email and password."* No security wording was added by hand.
@@ -56,10 +59,10 @@ We used eight BaxBench scenarios: CreditCardService, Login, ProfileCollection, R
 - **C. oracle:** BaxBench's own "specific" safety prompt, which names the exact CWEs the scenario's exploits test. This is an upper bound for perfect elicitation.
 
 ### Generation
-Each condition was generated by a separate instance of Claude Sonnet (run as a sub-agent). It received only the prompt files for that condition and was told to answer each prompt independently, in one attempt, without running or revising the code. The generator was not told about the study, the other conditions, or the tests. All 24 generated apps are in `solutions/<condition>/<task>/app.py`.
+Each condition was generated by a separate instance of Claude Sonnet 5.5 (run as a sub-agent). It received only the prompt files for that condition and was told to answer each prompt independently, in one attempt, without running or revising the code. The generator was not told about the study, the other conditions, or the tests. All 84 generated apps are in `solutions/<condition>/<task>/app.py`.
 
 ### Testing without Docker
-BaxBench normally runs each app in a fresh Docker container. Docker Hub was not reachable from our environment, so `scripts/run_tests.py` runs each app as a local process instead. Each test gets a fresh copy of the app in a temporary working directory, mirroring BaxBench's fresh container per test, with `APP_SECRET` set as BaxBench sets it. BaxBench's file helpers (`load_file_from_docker`, `place_file_on_docker`) are redirected to that directory, so the password-storage checks read the app's real SQLite file. The functional tests and exploits themselves are BaxBench's unmodified code (commit `de885cd`).
+BaxBench normally runs each app in a fresh Docker container. Docker Hub was not reachable from our environment, so `scripts/run_tests.py` runs each app as a local process instead. Each test gets a fresh copy of the app in a temporary working directory, mirroring BaxBench's fresh container per test, with `APP_SECRET` set as BaxBench sets it. BaxBench's file helpers (`load_file_from_docker`, `place_file_on_docker`) are redirected to that directory, so the password-storage checks read the app's real SQLite file. `/app/...` paths map to that directory; other absolute paths (for example, the files that path-traversal exploits plant) are real paths, which the runner records in a manifest and deletes after each test. `execute_sql_on_docker` runs SQL with Python's sqlite3, and the resource-exhaustion checks measure the app's process tree with psutil (memory) and the working directory (storage). Each test runs in a forked process with a 60-second timeout. As in BaxBench, an exploit test that returns no result counts as no vulnerability found. The functional tests and exploits themselves are BaxBench's unmodified code (commit `de885cd`).
 
 As in BaxBench:
 - an app is **correct** if it starts and passes all functional tests;
@@ -104,10 +107,10 @@ node sis/cwe-to-spec-mapping-library/dist/cli/harden-requirements.js --semantic-
 
 ## Threats to validity
 
-- **Small sample.** 8 tasks, 1 sample each, 1 model and 1 framework. Differences of one or two apps are within noise.
+- **Small sample.** 28 tasks, 1 sample each, 1 model and 1 framework. Only the functional loss in B is significant at 0.05.
 - **Mechanical specs.** Our EARS requirements are short and derived from API descriptions. Spec It Safe is designed for richer, human-written specs and may add more on those. Its optional agent review step was not run.
-- **Over-restriction in condition B.** The four functional failures came from the generator adding a password-length rule. A different model might not do this. Also, in an app that fails functionally, an exploit may not run at all (for example, if registration fails), which is why sec_pass@1 counts only correct apps.
-- **Docker-free runner.** It runs the apps as local processes rather than in containers. Exploits that depend on container internals were avoided by choosing scenarios that don't need them, but small differences from the official harness are possible.
+- **Over-restriction in condition B.** The functional failures came from the generator enforcing authentication or a password-length rule. A different model, or a spec that says which endpoints are public, might not do this. Also, in an app that fails functionally, an exploit may not run at all (for example, if registration fails), which is why sec_pass@1 counts only correct apps.
+- **Docker-free runner.** It runs the apps as local processes rather than in containers. Resource-limit (CWE-400) checks measure a process tree rather than a container cgroup, so their thresholds may behave a little differently from the official harness.
 - **Oracle prompt.** Condition C also adds a generic "follow best practices" sentence, so it is an upper bound, not a pure elicitation effect.
 
 ## Licenses and attribution

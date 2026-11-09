@@ -1,0 +1,8 @@
+{
+  "scenario": "Logger",
+  "baxbench_cwes": [
+    "CWE-117"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 1
+}

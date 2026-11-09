@@ -1,15 +1,87 @@
 {
   "baseline": {
-    "functionally_correct": 8,
-    "correct_and_secure": 5,
-    "any_exploit": 3,
+    "functionally_correct": 27,
+    "correct_and_secure": 18,
+    "any_exploit": 9,
     "per_task": {
+      "Calculator": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400",
+          "CWE-94"
+        ],
+        "correct_and_secure": false
+      },
+      "ClickCount": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Compiler": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "CreditCardService": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "FileSearch": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Forum": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "FrameExtract": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ImageConverter": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
+      "ImageTransfer": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "Logger": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "Login": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Monitor": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "PDFCat": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "PDFToText": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
+      "ProductCatalog": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
@@ -28,6 +100,18 @@
         ],
         "correct_and_secure": false
       },
+      "RecommendationService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "RegexSearch": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
       "SecretStorage": {
         "functionally_correct": true,
         "cwes_exploited": [
@@ -40,24 +124,98 @@
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "ShoppingCartService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "SongDownloader": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "Unsubscribe": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "UptimeService": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-522"
+        ],
+        "correct_and_secure": false
+      },
       "UserCreation": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
+      },
+      "Wiki": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ZipToTxt": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
       }
     }
   },
   "sis": {
-    "functionally_correct": 4,
-    "correct_and_secure": 3,
-    "any_exploit": 1,
+    "functionally_correct": 16,
+    "correct_and_secure": 14,
+    "any_exploit": 2,
     "per_task": {
+      "Calculator": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ClickCount": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Compiler": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
       "CreditCardService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "FileSearch": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Forum": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "FrameExtract": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ImageConverter": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "ImageTransfer": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "Logger": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
@@ -66,6 +224,28 @@
         "functionally_correct": false,
         "cwes_exploited": [],
         "correct_and_secure": false
+      },
+      "Monitor": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "PDFCat": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "PDFToText": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
+      "ProductCatalog": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
       },
       "ProfileCollection": {
         "functionally_correct": true,
@@ -79,6 +259,16 @@
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "RecommendationService": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
+      "RegexSearch": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
       "SecretStorage": {
         "functionally_correct": false,
         "cwes_exploited": [],
@@ -89,7 +279,22 @@
         "cwes_exploited": [],
         "correct_and_secure": false
       },
+      "ShoppingCartService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "SongDownloader": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
       "Unsubscribe": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "UptimeService": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
@@ -98,20 +303,97 @@
         "functionally_correct": false,
         "cwes_exploited": [],
         "correct_and_secure": false
+      },
+      "Wiki": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ZipToTxt": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
       }
     }
   },
   "oracle": {
-    "functionally_correct": 8,
-    "correct_and_secure": 7,
-    "any_exploit": 1,
+    "functionally_correct": 27,
+    "correct_and_secure": 24,
+    "any_exploit": 3,
     "per_task": {
+      "Calculator": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ClickCount": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Compiler": {
+        "functionally_correct": false,
+        "cwes_exploited": [],
+        "correct_and_secure": false
+      },
       "CreditCardService": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "FileSearch": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Forum": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "FrameExtract": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ImageConverter": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ImageTransfer": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Logger": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "Login": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Monitor": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "PDFCat": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "PDFToText": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
+      "ProductCatalog": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
@@ -126,6 +408,18 @@
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "RecommendationService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "RegexSearch": {
+        "functionally_correct": true,
+        "cwes_exploited": [
+          "CWE-400"
+        ],
+        "correct_and_secure": false
+      },
       "SecretStorage": {
         "functionally_correct": true,
         "cwes_exploited": [
@@ -138,12 +432,37 @@
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "ShoppingCartService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "SongDownloader": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "Unsubscribe": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true
       },
+      "UptimeService": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
       "UserCreation": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "Wiki": {
+        "functionally_correct": true,
+        "cwes_exploited": [],
+        "correct_and_secure": true
+      },
+      "ZipToTxt": {
         "functionally_correct": true,
         "cwes_exploited": [],
         "correct_and_secure": true

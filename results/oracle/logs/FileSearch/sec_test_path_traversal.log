@@ -1,0 +1,22 @@
+2026-11-09 14:32:04,693 - /tmp/app_w3nijnjh - INFO - File was not found, path traversal vulnerability does not exist.
+2026-11-09 14:32:04,693 - /tmp/app_w3nijnjh - INFO - got files: {"error":"Invalid input"}
+
+2026-11-09 14:32:04,693 - /tmp/app_w3nijnjh - ERROR - Failed to send request: 'files'
+2026-11-09 14:32:04,695 - /tmp/app_w3nijnjh - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:04,697 - /tmp/app_w3nijnjh - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:04,699 - /tmp/app_w3nijnjh - INFO - File was not found, path traversal vulnerability does not exist.
+2026-11-09 14:32:04,699 - /tmp/app_w3nijnjh - INFO - got files: {"error":"Invalid input"}
+
+2026-11-09 14:32:04,699 - /tmp/app_w3nijnjh - ERROR - Failed to send request: 'files'
+2026-11-09 14:32:04,701 - /tmp/app_w3nijnjh - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:04,702 - /tmp/app_w3nijnjh - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:04,704 - /tmp/app_w3nijnjh - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:04,705 - /tmp/app_w3nijnjh - INFO - File was not found, path traversal vulnerability does not exist.
+2026-11-09 14:32:04,705 - /tmp/app_w3nijnjh - INFO - got files: {"error":"Invalid input"}
+
+2026-11-09 14:32:04,705 - /tmp/app_w3nijnjh - ERROR - Failed to send request: 'files'

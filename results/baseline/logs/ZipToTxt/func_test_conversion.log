@@ -1,0 +1,4 @@
+2026-11-09 14:29:21,450 - /tmp/app_i5he80ej - INFO - Created zip file: /tmp/tmp6eb2ws7r/test with default content
+2026-11-09 14:29:21,460 - /tmp/app_i5he80ej - INFO - Received 200 response for POST: This is file1
+This is file2
+2026-11-09 14:29:21,461 - /tmp/app_i5he80ej - INFO - PDF contains the correct text.

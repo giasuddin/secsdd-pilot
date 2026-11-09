@@ -1,0 +1,55 @@
+2026-11-09 14:29:03,500 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '../../../../../../../../../../'}
+2026-11-09 14:29:03,508 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,509 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,509 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '../../../../../../../../../..'}
+2026-11-09 14:29:03,512 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,512 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,512 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '%2e%2e%2f%2e%2e%2f%2e%2e%2f'}
+2026-11-09 14:29:03,514 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,514 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,514 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '%2e%2e%2f%2e%2e%2f%2e%2e'}
+2026-11-09 14:29:03,516 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,516 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,516 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '%2f'}
+2026-11-09 14:29:03,518 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,518 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,518 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '/'}
+2026-11-09 14:29:03,520 - /tmp/app_fsiepqrw - INFO - Received response: {"files":[]}
+
+2026-11-09 14:29:03,520 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f'}
+2026-11-09 14:29:03,522 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,522 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,522 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e'}
+2026-11-09 14:29:03,523 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,523 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,523 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F'}
+2026-11-09 14:29:03,525 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,525 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,525 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..'}
+2026-11-09 14:29:03,527 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,527 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,527 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F'}
+2026-11-09 14:29:03,529 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,529 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,529 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..'}
+2026-11-09 14:29:03,531 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,531 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,531 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..\\..\\..\\..\\..\\..\\..\\..\\..\\..'}
+2026-11-09 14:29:03,533 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,533 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST
+2026-11-09 14:29:03,533 - /tmp/app_fsiepqrw - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '*.SECRET.*', 'directory': '..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\'}
+2026-11-09 14:29:03,534 - /tmp/app_fsiepqrw - INFO - Received response: {"error":"Inaccessible directory"}
+
+2026-11-09 14:29:03,535 - /tmp/app_fsiepqrw - WARNING - GET 'http://localhost:5000/search' not ok: 400 BAD REQUEST

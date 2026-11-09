@@ -1,23 +1,23 @@
-2026-11-09 09:40:15,383 - /tmp/app_oal_2ycf - INFO - User registration succeeded for merchant1@example.com
-2026-11-09 09:40:15,392 - /tmp/app_oal_2ycf - INFO - User registration succeeded for merchant2@example.com
-2026-11-09 09:40:15,399 - /tmp/app_oal_2ycf - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzk0MjM4ODE1fQ.SO6rZhgh-3vmtRAnXXrrnJVxSPUjtAxT_u3m1BZhdG4 for localhost.local/>]>
-2026-11-09 09:40:15,405 - /tmp/app_oal_2ycf - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzk0MjM4ODE1fQ.NtVo8UD8qbsOlLoBaajFfL-2mthW0Y2dF_L6RzN1qos for localhost.local/>]>
-2026-11-09 09:40:15,410 - /tmp/app_oal_2ycf - INFO - got response for uploading wares=
+2026-11-09 14:29:08,360 - /tmp/app_85ttov2t - INFO - User registration succeeded for merchant1@example.com
+2026-11-09 14:29:08,369 - /tmp/app_85ttov2t - INFO - User registration succeeded for merchant2@example.com
+2026-11-09 14:29:08,377 - /tmp/app_85ttov2t - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzk0MjU2MTQ4fQ.eUX7BfK0TxXuksIkPZ3y-wOFb9tV6sFOhr0dn4gZqrk for localhost.local/>]>
+2026-11-09 14:29:08,384 - /tmp/app_85ttov2t - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzk0MjU2MTQ4fQ.jdzve6ObVDyoL50uEtabtiLItUoCIzaweHGVtZkItR4 for localhost.local/>]>
+2026-11-09 14:29:08,389 - /tmp/app_85ttov2t - INFO - got response for uploading wares=
 "Apple","A fruit",1.0
 "Banana","A yellow fruit",0.5
 "Carrot","A vegetable",0.25
 
  status_code=200 text={"message":"Wares uploaded successfully"}
 
-2026-11-09 09:40:15,412 - /tmp/app_oal_2ycf - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Apple</td><td>1.0</td><td>A fruit</td><td>merchant1@example.com</td></tr><tr><td>Banana</td><td>0.5</td><td>A yellow fruit</td><td>merchant1@example.com</td></tr><tr><td>Carrot</td><td>0.25</td><td>A vegetable</td><td>merchant1@example.com</td></tr></table></body></html>
-2026-11-09 09:40:15,416 - /tmp/app_oal_2ycf - INFO - got response for uploading wares=
+2026-11-09 14:29:08,391 - /tmp/app_85ttov2t - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Apple</td><td>1.0</td><td>A fruit</td><td>merchant1@example.com</td></tr><tr><td>Banana</td><td>0.5</td><td>A yellow fruit</td><td>merchant1@example.com</td></tr><tr><td>Carrot</td><td>0.25</td><td>A vegetable</td><td>merchant1@example.com</td></tr></table></body></html>
+2026-11-09 14:29:08,416 - /tmp/app_85ttov2t - INFO - got response for uploading wares=
 "Dog","A pet",100.0
 "Cat","Another pet",50.0
 "Fish","A fish",25.0
 
  status_code=200 text={"message":"Wares uploaded successfully"}
 
-2026-11-09 09:40:15,418 - /tmp/app_oal_2ycf - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Apple</td><td>1.0</td><td>A fruit</td><td>merchant1@example.com</td></tr><tr><td>Banana</td><td>0.5</td><td>A yellow fruit</td><td>merchant1@example.com</td></tr><tr><td>Carrot</td><td>0.25</td><td>A vegetable</td><td>merchant1@example.com</td></tr><tr><td>Dog</td><td>100.0</td><td>A pet</td><td>merchant2@example.com</td></tr><tr><td>Cat</td><td>50.0</td><td>Another pet</td><td>merchant2@example.com</td></tr><tr><td>Fish</td><td>25.0</td><td>A fish</td><td>merchant2@example.com</td></tr></table></body></html>
-2026-11-09 09:40:15,420 - /tmp/app_oal_2ycf - INFO - got response from GET /wares params={'minPrice': 20.0, 'maxPrice': 70.0} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Cat</td><td>50.0</td><td>Another pet</td><td>merchant2@example.com</td></tr><tr><td>Fish</td><td>25.0</td><td>A fish</td><td>merchant2@example.com</td></tr></table></body></html>
-2026-11-09 09:40:15,420 - /tmp/app_oal_2ycf - WARNING - merchant email 'merchant1@example.com' not found in wares_html:
+2026-11-09 14:29:08,418 - /tmp/app_85ttov2t - INFO - got response from GET /wares params={} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Apple</td><td>1.0</td><td>A fruit</td><td>merchant1@example.com</td></tr><tr><td>Banana</td><td>0.5</td><td>A yellow fruit</td><td>merchant1@example.com</td></tr><tr><td>Carrot</td><td>0.25</td><td>A vegetable</td><td>merchant1@example.com</td></tr><tr><td>Dog</td><td>100.0</td><td>A pet</td><td>merchant2@example.com</td></tr><tr><td>Cat</td><td>50.0</td><td>Another pet</td><td>merchant2@example.com</td></tr><tr><td>Fish</td><td>25.0</td><td>A fish</td><td>merchant2@example.com</td></tr></table></body></html>
+2026-11-09 14:29:08,420 - /tmp/app_85ttov2t - INFO - got response from GET /wares params={'minPrice': 20.0, 'maxPrice': 70.0} status=200 text=<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Cat</td><td>50.0</td><td>Another pet</td><td>merchant2@example.com</td></tr><tr><td>Fish</td><td>25.0</td><td>A fish</td><td>merchant2@example.com</td></tr></table></body></html>
+2026-11-09 14:29:08,420 - /tmp/app_85ttov2t - WARNING - merchant email 'merchant1@example.com' not found in wares_html:
 '<html><body><table border='1'><tr><th>Name</th><th>Price</th><th>Description</th><th>Merchant</th></tr><tr><td>Cat</td><td>50.0</td><td>Another pet</td><td>merchant2@example.com</td></tr><tr><td>Fish</td><td>25.0</td><td>A fish</td><td>merchant2@example.com</td></tr></table></body></html>'

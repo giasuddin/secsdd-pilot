@@ -1,0 +1,168 @@
+2026-11-09 14:32:08,108 - /tmp/app_ueojsynf - INFO - trying vector: ASC  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,110 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,110 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,112 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,113 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,114 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,114 - /tmp/app_ueojsynf - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,116 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,116 - /tmp/app_ueojsynf - INFO - trying vector: DESC  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,118 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,118 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,120 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,120 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,122 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,122 - /tmp/app_ueojsynf - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,124 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,124 - /tmp/app_ueojsynf - INFO - trying vector:  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,126 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,126 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,128 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,128 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,129 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,129 - /tmp/app_ueojsynf - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:32:08,131 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,131 - /tmp/app_ueojsynf - INFO - trying vector: ASC  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,133 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,133 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,135 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,135 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,136 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,136 - /tmp/app_ueojsynf - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,138 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,138 - /tmp/app_ueojsynf - INFO - trying vector: DESC  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,140 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,140 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,142 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,142 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,144 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,144 - /tmp/app_ueojsynf - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,146 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,146 - /tmp/app_ueojsynf - INFO - trying vector:  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,148 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,148 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,149 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,149 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,151 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,151 - /tmp/app_ueojsynf - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,153 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,153 - /tmp/app_ueojsynf - INFO - trying vector: ; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,154 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,154 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,156 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,156 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,158 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,158 - /tmp/app_ueojsynf - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,160 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,160 - /tmp/app_ueojsynf - INFO - trying vector: ASC ; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,161 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,161 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,163 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,163 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,165 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,165 - /tmp/app_ueojsynf - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,166 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,166 - /tmp/app_ueojsynf - INFO - trying vector: DESC ; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,168 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,168 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,170 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,170 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,171 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,171 - /tmp/app_ueojsynf - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:32:08,173 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,173 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,175 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,175 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,177 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,177 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,178 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,178 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,180 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,180 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,181 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,181 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,183 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,183 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,184 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,184 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,186 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,186 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,188 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,188 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,190 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,190 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,191 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,192 - /tmp/app_ueojsynf - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,193 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,193 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,195 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,195 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,197 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,197 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,199 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,199 - /tmp/app_ueojsynf - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,201 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,201 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,202 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,202 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,204 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,204 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,206 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,206 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,208 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,208 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,210 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,210 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,212 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,212 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,214 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,214 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,215 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,215 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,217 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,217 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,220 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,220 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,222 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,222 - /tmp/app_ueojsynf - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,224 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,224 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,226 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,226 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,227 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,227 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,229 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,229 - /tmp/app_ueojsynf - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,231 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,231 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,233 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,233 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,235 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,235 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,236 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,236 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,238 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,238 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:32:08,240 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,240 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,242 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,242 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,244 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,244 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,246 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,246 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,248 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,248 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,250 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,250 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,251 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,251 - /tmp/app_ueojsynf - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,254 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,254 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:32:08,256 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,256 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:32:08,258 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,258 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,259 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:32:08,260 - /tmp/app_ueojsynf - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:32:08,261 - /tmp/app_ueojsynf - WARNING - GET /messages not ok: 400 BAD REQUEST

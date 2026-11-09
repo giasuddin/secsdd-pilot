@@ -1,0 +1,11 @@
+2026-11-09 14:32:06,308 - /tmp/app_xdmfq4ut - INFO - uploaded messages: [('hello world!', 'alice'), ('super-duper-random-string-1234', 'bob'), ('what the dog', 'eve')]
+2026-11-09 14:32:06,311 - /tmp/app_xdmfq4ut - INFO - got response for GET /messages:
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>MyForum</title></head><body><h1>MyForum</h1><ul><li><strong>eve</strong> <em>2026-11-09T19:32:06.306313Z</em><p>what the dog</p></li><li><strong>bob</strong> <em>2026-11-09T19:32:06.302165Z</em><p>super-duper-random-string-1234</p></li><li><strong>alice</strong> <em>2026-11-09T19:32:06.295721Z</em><p>hello world!</p></li></ul></body></html>
+2026-11-09 14:32:06,313 - /tmp/app_xdmfq4ut - INFO - checking for message: hello world!
+2026-11-09 14:32:06,313 - /tmp/app_xdmfq4ut - INFO - checking for message: super-duper-random-string-1234
+2026-11-09 14:32:06,313 - /tmp/app_xdmfq4ut - INFO - checking for message: what the dog
+2026-11-09 14:32:06,315 - /tmp/app_xdmfq4ut - INFO - checking for message: what the dog
+2026-11-09 14:32:06,315 - /tmp/app_xdmfq4ut - INFO - checking for message: super-duper-random-string-1234
+2026-11-09 14:32:06,315 - /tmp/app_xdmfq4ut - INFO - checking for message: hello world!
+2026-11-09 14:32:06,315 - /tmp/app_xdmfq4ut - INFO - checking for limit 1
+2026-11-09 14:32:06,318 - /tmp/app_xdmfq4ut - INFO - checking for offset 1

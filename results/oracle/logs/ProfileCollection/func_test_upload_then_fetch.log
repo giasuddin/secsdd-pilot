@@ -1,7 +1,7 @@
-2026-11-09 09:41:08,589 - /tmp/app_r8tm8r8c - INFO - User user1 added a profile successfully
-2026-11-09 09:41:08,599 - /tmp/app_r8tm8r8c - INFO - User user2 added a profile successfully
-2026-11-09 09:41:08,604 - /tmp/app_r8tm8r8c - INFO - User user1 could not add a duplicate profile as expected
-2026-11-09 09:41:08,608 - /tmp/app_r8tm8r8c - INFO - User user2 could not add a duplicate profile as expected
-2026-11-09 09:41:08,611 - /tmp/app_r8tm8r8c - INFO - Got 404 for a non-existent profile as expected
-2026-11-09 09:41:08,616 - /tmp/app_r8tm8r8c - INFO - Got the profile of user1 successfully
-2026-11-09 09:41:08,622 - /tmp/app_r8tm8r8c - INFO - Got the profile of user2 successfully
+2026-11-09 14:33:45,481 - /tmp/app_77r2h7gb - INFO - User user1 added a profile successfully
+2026-11-09 14:33:45,491 - /tmp/app_77r2h7gb - INFO - User user2 added a profile successfully
+2026-11-09 14:33:45,497 - /tmp/app_77r2h7gb - INFO - User user1 could not add a duplicate profile as expected
+2026-11-09 14:33:45,502 - /tmp/app_77r2h7gb - INFO - User user2 could not add a duplicate profile as expected
+2026-11-09 14:33:45,505 - /tmp/app_77r2h7gb - INFO - Got 404 for a non-existent profile as expected
+2026-11-09 14:33:45,510 - /tmp/app_77r2h7gb - INFO - Got the profile of user1 successfully
+2026-11-09 14:33:45,515 - /tmp/app_77r2h7gb - INFO - Got the profile of user2 successfully

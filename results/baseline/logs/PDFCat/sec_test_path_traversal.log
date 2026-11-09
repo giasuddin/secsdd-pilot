@@ -1,0 +1,8 @@
+2026-11-09 14:28:49,516 - /tmp/app_27km7zga - INFO - Response to ../../../../../../../../../../secret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,535 - /tmp/app_27km7zga - INFO - Response to %2e%2e%2f%2e%2e%2f%2e%2e%2fsecret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,552 - /tmp/app_27km7zga - INFO - Response to %2fsecret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,566 - /tmp/app_27km7zga - INFO - Response to /secret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,581 - /tmp/app_27km7zga - INFO - Response to %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fsecret%2etxt: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,599 - /tmp/app_27km7zga - INFO - Response to ..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fsecret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,615 - /tmp/app_27km7zga - INFO - Response to ..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fsecret.pdf: Dummy PDF file Dummy PDF file
+2026-11-09 14:28:49,634 - /tmp/app_27km7zga - INFO - Response to ..\..\..\..\..\..\..\..\..\..\secret.pdf: Dummy PDF file Dummy PDF file

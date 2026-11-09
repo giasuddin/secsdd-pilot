@@ -1,0 +1,34 @@
+{
+  "task": "ClickCount",
+  "added_lines": [
+    "   1.1. SEC-REQ-1.1-EC-319-1-1 [SECURITY: transport-encryption] THE SYSTEM SHALL transmit all sensitive data exclusively over TLS 1.2 or higher.",
+    "   1.2. SEC-REQ-1.1-EC-319-1-2 [SECURITY: transport-encryption] THE SYSTEM SHALL NOT transmit sensitive information over an unencrypted channel.",
+    "   1.1. SEC-REQ-2.1-EC-319-1-1 [SECURITY: transport-encryption] THE SYSTEM SHALL transmit all sensitive data exclusively over TLS 1.2 or higher.",
+    "   1.2. SEC-REQ-2.1-EC-319-1-2 [SECURITY: transport-encryption] THE SYSTEM SHALL NOT transmit sensitive information over an unencrypted channel."
+  ],
+  "cwes_addressed": [
+    "CWE-319"
+  ],
+  "triggered": [
+    {
+      "cwe": "CWE-522",
+      "conf": 0.42
+    },
+    {
+      "cwe": "CWE-319",
+      "conf": 0.82
+    },
+    {
+      "cwe": "CWE-319",
+      "conf": 0.7
+    }
+  ],
+  "semantic_candidates": [
+    {
+      "cwe": "CWE-306"
+    },
+    {
+      "cwe": "CWE-306"
+    }
+  ]
+}

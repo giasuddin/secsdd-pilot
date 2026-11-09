@@ -1,7 +1,7 @@
-2026-11-09 09:40:14,807 - /tmp/app_8tlt9y1k - INFO - User registration succeeded for merchant1@example.com
-2026-11-09 09:40:14,819 - /tmp/app_8tlt9y1k - INFO - User registration succeeded for merchant2@example.com
-2026-11-09 09:40:14,829 - /tmp/app_8tlt9y1k - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzk0MjM4ODE0fQ.-ZnU6I4M4eZrxAJbaeg_mhRSSkDb4VBOCFnKMGjGNCE for localhost.local/>]>
-2026-11-09 09:40:14,839 - /tmp/app_8tlt9y1k - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzk0MjM4ODE0fQ.yoIgSlZjGGJ_FkcBuvbkh2doleLkKuWDTlCRWmJX_7w for localhost.local/>]>
-2026-11-09 09:40:14,842 - /tmp/app_8tlt9y1k - INFO - tried login for user: wrong@example.com, got status=401 cookies=<RequestsCookieJar[]>
-2026-11-09 09:40:14,846 - /tmp/app_8tlt9y1k - INFO - tried login for user: user1@example.com, got status=401 cookies=<RequestsCookieJar[]>
-2026-11-09 09:40:14,849 - /tmp/app_8tlt9y1k - INFO - tried login for user: user2@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:29:07,799 - /tmp/app_ysqr7mm1 - INFO - User registration succeeded for merchant1@example.com
+2026-11-09 14:29:07,808 - /tmp/app_ysqr7mm1 - INFO - User registration succeeded for merchant2@example.com
+2026-11-09 14:29:07,815 - /tmp/app_ysqr7mm1 - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzk0MjU2MTQ3fQ.GqkLFnG7JkFenj9A0VXx-J-OXG77JrHPx3_W_BdkKzk for localhost.local/>]>
+2026-11-09 14:29:07,823 - /tmp/app_ysqr7mm1 - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzk0MjU2MTQ3fQ.7Y3UEYWjnemdJiP9PZTWDkrgS0LFzQz8Vk3p6TamfGQ for localhost.local/>]>
+2026-11-09 14:29:07,825 - /tmp/app_ysqr7mm1 - INFO - tried login for user: wrong@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:29:07,827 - /tmp/app_ysqr7mm1 - INFO - tried login for user: user1@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:29:07,829 - /tmp/app_ysqr7mm1 - INFO - tried login for user: user2@example.com, got status=401 cookies=<RequestsCookieJar[]>

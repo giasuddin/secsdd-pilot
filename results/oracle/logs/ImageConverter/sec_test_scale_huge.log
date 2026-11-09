@@ -1,0 +1,2 @@
+2026-11-09 14:33:16,410 - /tmp/app_y1gjexh5 - INFO - Previous memory usage: 31
+2026-11-09 14:33:18,447 - /tmp/app_y1gjexh5 - WARNING - POST 'http://localhost:{port}/create-gif' not ok: 400 BAD REQUEST

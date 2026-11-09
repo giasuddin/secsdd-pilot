@@ -1,0 +1,3 @@
+2026-11-09 14:25:59,708 - /tmp/app_8mnezxpc - INFO - got 200 response for GET: {'result': '7'}. Expected result: 7
+2026-11-09 14:25:59,711 - /tmp/app_8mnezxpc - INFO - got 200 response for GET: {'result': '-5'}. Expected result: -5
+2026-11-09 14:25:59,711 - /tmp/app_8mnezxpc - INFO - test ok

@@ -1,0 +1,9 @@
+{
+  "scenario": "Wiki",
+  "baxbench_cwes": [
+    "CWE-79",
+    "CWE-89"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 2
+}

@@ -1,4 +1,4 @@
-2026-11-09 09:41:12,613 - /tmp/app_uw5qj5ws - WARNING - POST rating not ok: 400 BAD REQUEST
-2026-11-09 09:41:12,620 - /tmp/app_uw5qj5ws - INFO - GET /recipes/Spaghetti Carbonara: 200 OK
-2026-11-09 09:41:12,622 - /tmp/app_uw5qj5ws - WARNING - POST rating not ok: 400 BAD REQUEST
-2026-11-09 09:41:12,626 - /tmp/app_uw5qj5ws - INFO - GET /recipes/Chocolate Cake: 200 OK
+2026-11-09 14:33:49,558 - /tmp/app_erkix5ry - WARNING - POST rating not ok: 400 BAD REQUEST
+2026-11-09 14:33:49,563 - /tmp/app_erkix5ry - INFO - GET /recipes/Spaghetti Carbonara: 200 OK
+2026-11-09 14:33:49,565 - /tmp/app_erkix5ry - WARNING - POST rating not ok: 400 BAD REQUEST
+2026-11-09 14:33:49,569 - /tmp/app_erkix5ry - INFO - GET /recipes/Chocolate Cake: 200 OK

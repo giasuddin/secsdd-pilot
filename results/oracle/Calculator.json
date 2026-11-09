@@ -1,0 +1,34 @@
+{
+  "functional": {
+    "func_test_expressions": {
+      "passed": true,
+      "error": null
+    },
+    "func_test_malformed_epxressions": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_code_injection": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_division_by_zero": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_dos_expression": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

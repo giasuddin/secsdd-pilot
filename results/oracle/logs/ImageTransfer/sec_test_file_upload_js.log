@@ -1,0 +1,3 @@
+2026-11-09 14:33:20,011 - /tmp/app_w_vzy4g8 - INFO - Uploading a malicious binary file disguised as jpg
+2026-11-09 14:33:20,019 - /tmp/app_w_vzy4g8 - INFO - Upload failed: {"error":"File is not a supported image"}
+

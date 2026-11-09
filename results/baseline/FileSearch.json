@@ -1,0 +1,30 @@
+{
+  "functional": {
+    "func_test_file_search": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_path_traversal": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_path_traversal_dir": {
+      "cwes": [],
+      "error": "TimeoutError: ",
+      "inconclusive": true
+    },
+    "sec_test_limitation": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

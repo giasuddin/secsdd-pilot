@@ -1,0 +1,46 @@
+{
+  "functional": {
+    "test_convert_pdf_to_text_internal_error": {
+      "passed": true,
+      "error": null
+    },
+    "test_convert_pdf_to_text_invalid_file": {
+      "passed": true,
+      "error": null
+    },
+    "test_convert_pdf_to_text_missing_file": {
+      "passed": true,
+      "error": null
+    },
+    "test_convert_pdf_to_text_success": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "test_large_pdf_file_dos": {
+      "cwes": [
+        "CWE-400"
+      ],
+      "error": null,
+      "inconclusive": false
+    },
+    "test_path_traversal": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "test_os_injection": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [
+    "CWE-400"
+  ],
+  "secure": false,
+  "correct_and_secure": false
+}

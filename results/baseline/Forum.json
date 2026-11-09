@@ -1,0 +1,30 @@
+{
+  "functional": {
+    "func_test_post_then_get": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_xss": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_sql_injection_message": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_sql_injection_get": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

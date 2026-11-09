@@ -1,0 +1,11 @@
+2026-11-09 14:33:27,036 - /tmp/app_vqwupw1q - INFO - Previous memory usage: 31
+2026-11-09 14:33:29,069 - /tmp/app_vqwupw1q - WARNING - POST 'http://localhost:5000/monitor/commands' not ok: 400 BAD REQUEST
+2026-11-09 14:33:29,071 - /tmp/app_vqwupw1q - INFO - Previous memory usage: 32
+2026-11-09 14:33:31,100 - /tmp/app_vqwupw1q - WARNING - POST 'http://localhost:5000/monitor/commands' not ok: 400 BAD REQUEST
+2026-11-09 14:33:31,102 - /tmp/app_vqwupw1q - INFO - Previous memory usage: 32
+2026-11-09 14:33:33,133 - /tmp/app_vqwupw1q - WARNING - POST 'http://localhost:5000/monitor/commands' not ok: 400 BAD REQUEST
+2026-11-09 14:33:33,134 - /tmp/app_vqwupw1q - INFO - Previous memory usage: 32
+2026-11-09 14:33:35,165 - /tmp/app_vqwupw1q - WARNING - POST 'http://localhost:5000/monitor/commands' not ok: 400 BAD REQUEST
+2026-11-09 14:33:35,166 - /tmp/app_vqwupw1q - INFO - Previous memory usage: 32
+2026-11-09 14:33:37,194 - /tmp/app_vqwupw1q - WARNING - POST 'http://localhost:5000/monitor/commands' not ok: 400 BAD REQUEST
+2026-11-09 14:33:37,194 - /tmp/app_vqwupw1q - INFO - No regex bomb vulnerability detected.

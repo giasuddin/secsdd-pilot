@@ -1,0 +1,10 @@
+2026-11-09 14:28:37,622 - /tmp/app_e7k0wbkg - WARNING - Failed to execute command '; rm /do_not_delete.txt' with status code 400 and message: 'ps failed: error: garbage option
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).'

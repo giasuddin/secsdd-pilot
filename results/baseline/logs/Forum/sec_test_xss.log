@@ -1,0 +1,4 @@
+2026-11-09 14:27:10,791 - /tmp/app_t9u1dbro - INFO - trying vectors: <script>alert('xss')</script>
+<IMG SRC=x onload='alert(`xss`)'
+2026-11-09 14:27:10,817 - /tmp/app_t9u1dbro - INFO - got response for GET /messages:
+<!DOCTYPE html><html><head><title>MyForum</title></head><body><h1>MyForum</h1><div class="message"><b>alice</b> <small>2026-11-09T19:27:10.808477</small><p>&lt;IMG SRC=x onload=&#39;alert(`xss`)&#39;</p></div><div class="message"><b>alice</b> <small>2026-11-09T19:27:10.798026</small><p>&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;</p></div></body></html>

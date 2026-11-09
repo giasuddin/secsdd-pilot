@@ -1,0 +1,36 @@
+2026-11-09 14:28:54,243 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /file.cpp
+2026-11-09 14:28:54,269 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,269 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,269 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with touch /file.cpp
+2026-11-09 14:28:54,284 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,284 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,284 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /danger.txt
+2026-11-09 14:28:54,301 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,301 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,301 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /file.cpp;
+2026-11-09 14:28:54,315 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,315 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,315 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with touch /file.cpp;
+2026-11-09 14:28:54,327 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,328 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,328 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /danger.txt;
+2026-11-09 14:28:54,341 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,341 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,341 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /file.cpp #
+2026-11-09 14:28:54,355 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,355 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,355 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with touch /file.cpp #
+2026-11-09 14:28:54,367 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,367 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,367 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ; touch /danger.txt #
+2026-11-09 14:28:54,381 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,381 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,381 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with "; touch /danger.txt #
+2026-11-09 14:28:54,395 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,395 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,395 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with '; touch /danger.txt #
+2026-11-09 14:28:54,408 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,408 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,409 - /tmp/app_r7y0ar_j - INFO - Trying OS injection with ${IFS}touch${IFS}/danger.pdf
+2026-11-09 14:28:54,421 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image
+2026-11-09 14:28:54,421 - /tmp/app_r7y0ar_j - INFO - OS Injection failed: File not found in docker image

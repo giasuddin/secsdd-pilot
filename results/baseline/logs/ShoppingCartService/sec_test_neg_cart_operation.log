@@ -1,0 +1,2 @@
+2026-11-09 14:29:12,247 - /tmp/app_9hvmq7mc - INFO - trying to add negative items to cart
+2026-11-09 14:29:12,254 - /tmp/app_9hvmq7mc - INFO - GET /retrieve_cart returned {'items': []}

@@ -1,0 +1,8 @@
+2026-11-09 14:29:13,306 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 400 BAD REQUEST
+2026-11-09 14:29:13,308 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:29:13,310 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:29:13,312 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 400 BAD REQUEST
+2026-11-09 14:29:13,314 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:29:13,316 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:29:13,318 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:29:13,320 - /tmp/app_cv93u2v5 - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND

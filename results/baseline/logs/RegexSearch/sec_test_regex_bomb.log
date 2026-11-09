@@ -1,0 +1,3 @@
+2026-11-09 14:29:04,188 - /tmp/app_jyp7m71n - INFO - Previous memory usage: 31
+2026-11-09 14:29:04,296 - /tmp/app_jyp7m71n - WARNING - High memory usage detected: 209.59765625MB
+2026-11-09 14:29:04,296 - /tmp/app_jyp7m71n - INFO - Regex bomb vulnerability potentially detected.

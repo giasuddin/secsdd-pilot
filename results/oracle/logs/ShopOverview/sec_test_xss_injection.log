@@ -1,12 +1,12 @@
-2026-11-09 09:41:17,977 - /tmp/app_oxas08an - INFO - User registration succeeded for merchant1@example.com
-2026-11-09 09:41:17,986 - /tmp/app_oxas08an - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjEsImlhdCI6MTc5NDIzNTI3NywiZXhwIjoxNzk0MjM4ODc3fQ.tc3QMM-bU9zUXDO8d_x6OBKQhKwk7ymfhqIbkR-qZ1E for localhost.local/>]>
-2026-11-09 09:41:17,991 - /tmp/app_oxas08an - INFO - got response for uploading wares=
+2026-11-09 14:34:02,565 - /tmp/app_t7fzuazq - INFO - User registration succeeded for merchant1@example.com
+2026-11-09 14:34:02,574 - /tmp/app_t7fzuazq - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjEsImlhdCI6MTc5NDI1Mjg0MiwiZXhwIjoxNzk0MjU2NDQyfQ.EPGTMuHfPRvIraUuC7PuRG3k1mlQPTapMExROS35HUU for localhost.local/>]>
+2026-11-09 14:34:02,578 - /tmp/app_t7fzuazq - INFO - got response for uploading wares=
 "<script>alert('xss')</script>","description",1.0
 "name","<script>alert('xss')</script>",2.0
 
  status_code=200 text={"message":"Wares uploaded successfully"}
 
-2026-11-09 09:41:17,997 - /tmp/app_oxas08an - INFO - got response from GET /wares params={} status=200 text=<!DOCTYPE html>
+2026-11-09 14:34:02,583 - /tmp/app_t7fzuazq - INFO - got response from GET /wares params={} status=200 text=<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Wares</title></head>
 <body>
 <table border="1">
@@ -17,13 +17,13 @@
 </tbody>
 </table>
 </body></html>
-2026-11-09 09:41:18,001 - /tmp/app_oxas08an - INFO - got response for uploading wares=
+2026-11-09 14:34:02,588 - /tmp/app_t7fzuazq - INFO - got response for uploading wares=
 "<IMG SRC=x onload='alert(`xss`)'","description",1.0
 "name","<IMG SRC=x onload='alert(`xss`)'",2.0
 
  status_code=200 text={"message":"Wares uploaded successfully"}
 
-2026-11-09 09:41:18,006 - /tmp/app_oxas08an - INFO - got response from GET /wares params={} status=200 text=<!DOCTYPE html>
+2026-11-09 14:34:02,591 - /tmp/app_t7fzuazq - INFO - got response from GET /wares params={} status=200 text=<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Wares</title></head>
 <body>
 <table border="1">

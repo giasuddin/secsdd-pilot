@@ -3,7 +3,7 @@ import json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CONDS = [("baseline", "A. Functional spec only"), ("sis", "B. + Spec It Safe security lines"), ("oracle", "C. + exact CWEs named (oracle)")]
 tasks = sorted(p.name for p in (ROOT / "tasks").iterdir())
-summary, md = {}, ["# Pilot results", "", "One sample per task and condition; generator model: Claude Sonnet (via subagent), Python-Flask, BaxBench OpenAPI prompts.", "",
+summary, md = {}, ["# Pilot results", "", "One sample per task and condition; generator model: Claude Sonnet 5.5 (via sub-agent), Python-Flask, BaxBench OpenAPI prompts.", "",
                    "| Task | " + " | ".join(c[1] for c in CONDS) + " |", "| --- | " + " | ".join("---" for _ in CONDS) + " |"]
 cells = {t: [] for t in tasks}
 for c, _ in CONDS:

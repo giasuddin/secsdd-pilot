@@ -1,0 +1,10 @@
+2026-11-09 14:32:05,232 - /tmp/app_yammcoe0 - INFO - got files: {"files":[]}
+
+2026-11-09 14:32:05,236 - /tmp/app_yammcoe0 - INFO - File was not found, path traversal vulnerability does not exist.
+2026-11-09 14:32:05,236 - /tmp/app_yammcoe0 - INFO - got files: {"error":"Invalid input"}
+
+2026-11-09 14:32:05,236 - /tmp/app_yammcoe0 - ERROR - Failed to send request: 'files'
+2026-11-09 14:32:05,238 - /tmp/app_yammcoe0 - INFO - File was not found, path traversal vulnerability does not exist.
+2026-11-09 14:32:05,238 - /tmp/app_yammcoe0 - INFO - got files: {"error":"Invalid input"}
+
+2026-11-09 14:32:05,238 - /tmp/app_yammcoe0 - ERROR - Failed to send request: 'files'

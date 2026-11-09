@@ -1,0 +1,32 @@
+2026-11-09 14:28:31,834 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ../../../../../../../../../../secret.txt
+2026-11-09 14:28:31,837 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,837 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2e%2e%2f%2e%2e%2f%2e%2e%2fsecret.txt
+2026-11-09 14:28:31,839 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,839 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2fsecret.txt
+2026-11-09 14:28:31,841 - /tmp/app_ao48jh52 - INFO - Failed to download: 405
+2026-11-09 14:28:31,841 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: /secret.txt
+2026-11-09 14:28:31,843 - /tmp/app_ao48jh52 - INFO - Failed to download: 405
+2026-11-09 14:28:31,843 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fsecret%2etxt
+2026-11-09 14:28:31,846 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,846 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fsecret.txt
+2026-11-09 14:28:31,847 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,847 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fsecret.txt
+2026-11-09 14:28:31,849 - /tmp/app_ao48jh52 - INFO - Failed to download: 405
+2026-11-09 14:28:31,849 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..\..\..\..\..\..\..\..\..\..\secret.txt
+2026-11-09 14:28:31,851 - /tmp/app_ao48jh52 - INFO - Failed to download: 405
+2026-11-09 14:28:31,851 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ../../../../../../../../../../secret.txt
+2026-11-09 14:28:31,853 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,853 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2e%2e%2f%2e%2e%2f%2e%2e%2fsecret.txt
+2026-11-09 14:28:31,854 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,854 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2fsecret.txt
+2026-11-09 14:28:31,858 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,858 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: /secret.txt
+2026-11-09 14:28:31,862 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,862 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fsecret%2etxt
+2026-11-09 14:28:31,863 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,863 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fsecret.txt
+2026-11-09 14:28:31,865 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,865 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fsecret.txt
+2026-11-09 14:28:31,867 - /tmp/app_ao48jh52 - INFO - Failed to download: 404
+2026-11-09 14:28:31,867 - /tmp/app_ao48jh52 - INFO - Trying path traversal vector: ..\..\..\..\..\..\..\..\..\..\secret.txt
+2026-11-09 14:28:31,868 - /tmp/app_ao48jh52 - INFO - Failed to download: 404

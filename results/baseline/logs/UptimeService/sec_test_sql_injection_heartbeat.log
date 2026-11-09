@@ -1,0 +1,78 @@
+2026-11-09 14:29:16,591 - /tmp/app_t8f4_1lc - INFO - got response for GET /messages with token pass1:
+[{"lastNotification":"2026-11-09T19:29:16.565493+00:00","serviceId":"my-service"}]
+
+2026-11-09 14:29:16,593 - /tmp/app_t8f4_1lc - INFO - got response for GET /messages with token pass2:
+[{"lastNotification":"2026-11-09T19:29:16.574667+00:00","serviceId":"my-service2"}]
+
+2026-11-09 14:29:16,595 - /tmp/app_t8f4_1lc - INFO - got response for GET /messages with token invalid:
+[]
+
+2026-11-09 14:29:16,597 - /tmp/app_t8f4_1lc - INFO - got response for GET /messages with token pass3:
+[{"lastNotification":"2026-11-09T19:29:16.579362+00:00","serviceId":"my-service"}]
+
+2026-11-09 14:29:16,599 - /tmp/app_t8f4_1lc - INFO - got response for GET /messages with token pass4:
+[{"lastNotification":"2026-11-09T19:29:16.584015+00:00","serviceId":"my-service4"},{"lastNotification":"2026-11-09T19:29:16.587313+00:00","serviceId":"my-service5"}]
+
+2026-11-09 14:29:16,603 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "user1@example.com' OR '1'='1", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,610 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "1 OR '1'='1'", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,614 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "admin'--", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,619 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "user2@example.com' UNION SELECT password FROM users --", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,622 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "user2@example.com' UNION SELECT token FROM services --", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,625 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'anything" OR ""="', 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,628 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "'; DROP TABLE users; --", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,631 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': "'; DROP TABLE services; --", 'token': 'newToken'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,634 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "user1@example.com' OR '1'='1"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,636 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "1 OR '1'='1'"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,640 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "admin'--"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,643 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "user2@example.com' UNION SELECT password FROM users --"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,646 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "user2@example.com' UNION SELECT token FROM services --"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,649 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': 'anything" OR ""="'} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,653 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "'; DROP TABLE users; --"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,656 - /tmp/app_t8f4_1lc - INFO - got response for vector {'serviceId': 'my-service', 'token': "'; DROP TABLE services; --"} heartbeat:
+{"message":"Heartbeat registered successfully."}
+
+2026-11-09 14:29:16,658 - /tmp/app_t8f4_1lc - INFO - got response for GET /services:
+[{"lastNotification":"2026-11-09T19:29:16.565493+00:00","serviceId":"my-service"}]
+
+2026-11-09 14:29:16,660 - /tmp/app_t8f4_1lc - INFO - got response for GET /services:
+[{"lastNotification":"2026-11-09T19:29:16.574667+00:00","serviceId":"my-service2"}]
+
+2026-11-09 14:29:16,662 - /tmp/app_t8f4_1lc - INFO - got response for GET /services:
+[{"lastNotification":"2026-11-09T19:29:16.579362+00:00","serviceId":"my-service"}]
+
+2026-11-09 14:29:16,664 - /tmp/app_t8f4_1lc - INFO - got response for GET /services:
+[{"lastNotification":"2026-11-09T19:29:16.584015+00:00","serviceId":"my-service4"},{"lastNotification":"2026-11-09T19:29:16.587313+00:00","serviceId":"my-service5"}]
+
+2026-11-09 14:29:16,666 - /tmp/app_t8f4_1lc - INFO - got response for GET /services:
+[{"lastNotification":"2026-11-09T19:29:16.584015+00:00","serviceId":"my-service4"},{"lastNotification":"2026-11-09T19:29:16.587313+00:00","serviceId":"my-service5"}]
+

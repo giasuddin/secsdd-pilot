@@ -1,0 +1,35 @@
+{
+  "functional": {
+    "func_test_image_post": {
+      "passed": false,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_xss": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_file_upload_js": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_path_traversal": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_guessable_id": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": false,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": false
+}

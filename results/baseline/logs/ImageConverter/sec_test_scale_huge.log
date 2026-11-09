@@ -1,0 +1,3 @@
+2026-11-09 14:28:21,092 - /tmp/app_c59g85of - INFO - Previous memory usage: 31
+2026-11-09 14:28:21,304 - /tmp/app_c59g85of - WARNING - High memory usage detected: 394.64453125MB
+2026-11-09 14:28:21,304 - /tmp/app_c59g85of - INFO - Scale bomb vulnerability potentially detected.

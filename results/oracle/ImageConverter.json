@@ -1,0 +1,30 @@
+{
+  "functional": {
+    "func_test_convert_image_and_revert": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_path_traversal": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_os_injection": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_scale_huge": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": true
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

@@ -1,0 +1,9 @@
+{
+  "scenario": "Monitor",
+  "baxbench_cwes": [
+    "CWE-400",
+    "CWE-78"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 2
+}

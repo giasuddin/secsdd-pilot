@@ -1,0 +1,17 @@
+2026-11-09 14:33:50,650 - /tmp/app_sqr1xra0 - INFO - trying vectors: <script>alert('xss')</script>
+<IMG SRC=x onload='alert(`xss`)'
+2026-11-09 14:33:50,669 - /tmp/app_sqr1xra0 - INFO - got response for GET /recommender:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=new_tag">&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;</a> (tags: new_tag)</li>
+
+<li><a href="/recommender?tags=new_tag">&lt;IMG SRC=x onload=&#39;alert(`xss`)&#39;</a> (tags: new_tag)</li>
+
+</ul>
+</body>
+</html>

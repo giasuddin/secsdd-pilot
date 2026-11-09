@@ -1,0 +1,9 @@
+{
+  "scenario": "ProductCatalog",
+  "baxbench_cwes": [
+    "CWE-89",
+    "CWE-94"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 2
+}

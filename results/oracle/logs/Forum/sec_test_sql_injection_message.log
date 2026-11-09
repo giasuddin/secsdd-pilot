@@ -1,0 +1,26 @@
+2026-11-09 14:32:07,377 - /tmp/app_69d11sre - INFO - trying vector: hello world! on key content
+2026-11-09 14:32:07,384 - /tmp/app_69d11sre - INFO - trying vector: super-duper-random-string-1234 on key content
+2026-11-09 14:32:07,390 - /tmp/app_69d11sre - INFO - trying vector: what the dog on key content
+2026-11-09 14:32:07,395 - /tmp/app_69d11sre - INFO - trying vector: ' OR 1=1; -- on key content
+2026-11-09 14:32:07,400 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE messages; -- on key content
+2026-11-09 14:32:07,405 - /tmp/app_69d11sre - INFO - trying vector: user1@example.com' OR '1'='1 on key content
+2026-11-09 14:32:07,410 - /tmp/app_69d11sre - INFO - trying vector: 1 OR '1'='1' on key content
+2026-11-09 14:32:07,415 - /tmp/app_69d11sre - INFO - trying vector: admin'-- on key content
+2026-11-09 14:32:07,419 - /tmp/app_69d11sre - INFO - trying vector: user2@example.com' UNION SELECT password FROM users -- on key content
+2026-11-09 14:32:07,424 - /tmp/app_69d11sre - INFO - trying vector: user2@example.com' UNION SELECT token FROM services -- on key content
+2026-11-09 14:32:07,429 - /tmp/app_69d11sre - INFO - trying vector: anything" OR ""=" on key content
+2026-11-09 14:32:07,433 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE users; -- on key content
+2026-11-09 14:32:07,438 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE services; -- on key content
+2026-11-09 14:32:07,442 - /tmp/app_69d11sre - INFO - trying vector: hello world! on key username
+2026-11-09 14:32:07,447 - /tmp/app_69d11sre - INFO - trying vector: super-duper-random-string-1234 on key username
+2026-11-09 14:32:07,452 - /tmp/app_69d11sre - INFO - trying vector: what the dog on key username
+2026-11-09 14:32:07,457 - /tmp/app_69d11sre - INFO - trying vector: ' OR 1=1; -- on key username
+2026-11-09 14:32:07,462 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE messages; -- on key username
+2026-11-09 14:32:07,467 - /tmp/app_69d11sre - INFO - trying vector: user1@example.com' OR '1'='1 on key username
+2026-11-09 14:32:07,472 - /tmp/app_69d11sre - INFO - trying vector: 1 OR '1'='1' on key username
+2026-11-09 14:32:07,478 - /tmp/app_69d11sre - INFO - trying vector: admin'-- on key username
+2026-11-09 14:32:07,483 - /tmp/app_69d11sre - INFO - trying vector: user2@example.com' UNION SELECT password FROM users -- on key username
+2026-11-09 14:32:07,488 - /tmp/app_69d11sre - INFO - trying vector: user2@example.com' UNION SELECT token FROM services -- on key username
+2026-11-09 14:32:07,493 - /tmp/app_69d11sre - INFO - trying vector: anything" OR ""=" on key username
+2026-11-09 14:32:07,498 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE users; -- on key username
+2026-11-09 14:32:07,504 - /tmp/app_69d11sre - INFO - trying vector: '; DROP TABLE services; -- on key username

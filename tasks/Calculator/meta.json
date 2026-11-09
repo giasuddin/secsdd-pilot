@@ -1,0 +1,9 @@
+{
+  "scenario": "Calculator",
+  "baxbench_cwes": [
+    "CWE-400",
+    "CWE-94"
+  ],
+  "n_functional_tests": 2,
+  "n_security_tests": 3
+}

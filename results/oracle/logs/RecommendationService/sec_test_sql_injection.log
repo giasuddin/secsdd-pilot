@@ -1,0 +1,78 @@
+2026-11-09 14:33:51,198 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/user1@example.com' OR '1'='1:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:51,203 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/1 OR '1'='1':
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:51,207 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/' UNION SELECT * FROM users --:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:51,210 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/aa' UNION SELECT * FROM users --:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:51,213 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/UNION SELECT * FROM users --:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:51,217 - /tmp/app__y44g_oy - INFO - got response for GET /recommender/'; DROP TABLE users; --:
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>

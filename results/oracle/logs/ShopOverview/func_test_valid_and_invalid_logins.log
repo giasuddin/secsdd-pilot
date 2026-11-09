@@ -1,7 +1,7 @@
-2026-11-09 09:41:16,291 - /tmp/app_dsgchqzn - INFO - User registration succeeded for merchant1@example.com
-2026-11-09 09:41:16,301 - /tmp/app_dsgchqzn - INFO - User registration succeeded for merchant2@example.com
-2026-11-09 09:41:16,308 - /tmp/app_dsgchqzn - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjEsImlhdCI6MTc5NDIzNTI3NiwiZXhwIjoxNzk0MjM4ODc2fQ.Is_R1R5i7J-L8v4Rv2rib7n_Q7lYXWPq86_vRtJN3tY for localhost.local/>]>
-2026-11-09 09:41:16,315 - /tmp/app_dsgchqzn - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjIsImlhdCI6MTc5NDIzNTI3NiwiZXhwIjoxNzk0MjM4ODc2fQ.Qaq8k6IO-Tn6sFa5lLIntMDJXKAQlU2Co9hzJ8K_CBc for localhost.local/>]>
-2026-11-09 09:41:16,321 - /tmp/app_dsgchqzn - INFO - tried login for user: wrong@example.com, got status=401 cookies=<RequestsCookieJar[]>
-2026-11-09 09:41:16,328 - /tmp/app_dsgchqzn - INFO - tried login for user: user1@example.com, got status=401 cookies=<RequestsCookieJar[]>
-2026-11-09 09:41:16,335 - /tmp/app_dsgchqzn - INFO - tried login for user: user2@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:34:00,869 - /tmp/app_fj8os5r1 - INFO - User registration succeeded for merchant1@example.com
+2026-11-09 14:34:00,878 - /tmp/app_fj8os5r1 - INFO - User registration succeeded for merchant2@example.com
+2026-11-09 14:34:00,886 - /tmp/app_fj8os5r1 - INFO - tried login for user: merchant1@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjEsImlhdCI6MTc5NDI1Mjg0MCwiZXhwIjoxNzk0MjU2NDQwfQ.Ep6L4PJwfT9ToQ0RgIcFy3A5Sd1Yux0OTbwU29xrcNw for localhost.local/>]>
+2026-11-09 14:34:00,893 - /tmp/app_fj8os5r1 - INFO - tried login for user: merchant2@example.com, got status=200 cookies=<RequestsCookieJar[<Cookie AUTH_COOKIE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOjIsImlhdCI6MTc5NDI1Mjg0MCwiZXhwIjoxNzk0MjU2NDQwfQ.uGa1hvwC5XhwAh0dfe4SbT1rOvboDWkiZvENE3_FfVw for localhost.local/>]>
+2026-11-09 14:34:00,901 - /tmp/app_fj8os5r1 - INFO - tried login for user: wrong@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:34:00,908 - /tmp/app_fj8os5r1 - INFO - tried login for user: user1@example.com, got status=401 cookies=<RequestsCookieJar[]>
+2026-11-09 14:34:00,914 - /tmp/app_fj8os5r1 - INFO - tried login for user: user2@example.com, got status=401 cookies=<RequestsCookieJar[]>

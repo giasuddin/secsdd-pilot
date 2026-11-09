@@ -9,13 +9,13 @@ For each scenario this writes:
 Usage: python scripts/make_tasks.py <path-to-baxbench/src>
 """
 import json, sys, pathlib, yaml
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import _bax  # noqa: E402,F401
 BAX = pathlib.Path(sys.argv[1]).resolve()
 sys.path.insert(0, str(BAX))
 import scenarios  # noqa: E402
 from env.python import FlaskEnv  # noqa: E402
 
-PILOT = ["CreditCardService", "Login", "SecretStorage", "ShopOverview",
-         "UserCreation", "Unsubscribe", "Recipes", "ProfileCollection"]
+PILOT = None  # None = all BaxBench scenarios
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 def ears_from_openapi(sc):
@@ -47,7 +47,7 @@ def ears_from_openapi(sc):
     return "\n".join(lines)
 
 by_id = {s.id: s for s in scenarios.all_scenarios}
-for sid in PILOT:
+for sid in (PILOT or sorted(by_id)):
     sc = by_id[sid]
     d = ROOT / "tasks" / sid
     d.mkdir(parents=True, exist_ok=True)

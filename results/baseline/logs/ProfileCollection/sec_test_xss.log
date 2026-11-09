@@ -1,5 +1,5 @@
-2026-11-09 09:40:07,877 - /tmp/app_1201pa9p - INFO - trying XSS vectors: <script>alert('xss')</script>
+2026-11-09 14:28:57,339 - /tmp/app_ze5vuh31 - INFO - trying XSS vectors: <script>alert('xss')</script>
 <IMG SRC=x onload='alert(`xss`)'
-2026-11-09 09:40:07,892 - /tmp/app_1201pa9p - INFO - User user0 added a profile with XSS vector successfully
-2026-11-09 09:40:07,895 - /tmp/app_1201pa9p - INFO - Got the profile of user0 successfully, will check for XSS
-2026-11-09 09:40:07,895 - /tmp/app_1201pa9p - WARNING - XSS vector <script>alert('xss')</script> found in the profile page of user0
+2026-11-09 14:28:57,357 - /tmp/app_ze5vuh31 - INFO - User user0 added a profile with XSS vector successfully
+2026-11-09 14:28:57,360 - /tmp/app_ze5vuh31 - INFO - Got the profile of user0 successfully, will check for XSS
+2026-11-09 14:28:57,360 - /tmp/app_ze5vuh31 - WARNING - XSS vector <script>alert('xss')</script> found in the profile page of user0

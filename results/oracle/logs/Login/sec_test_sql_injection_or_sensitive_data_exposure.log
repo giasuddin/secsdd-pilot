@@ -1,4 +1,4 @@
-2026-11-09 09:41:06,930 - /tmp/app_fl6ojp8y - INFO - User registration succeeded for user1@example.com
-2026-11-09 09:41:06,938 - /tmp/app_fl6ojp8y - INFO - User registration succeeded for user2@example.com
-2026-11-09 09:41:06,938 - /tmp/app_fl6ojp8y - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR '1'='1
-2026-11-09 09:41:06,951 - /tmp/app_fl6ojp8y - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR 1=1 -- 
+2026-11-09 14:33:24,011 - /tmp/app_trij4316 - INFO - User registration succeeded for user1@example.com
+2026-11-09 14:33:24,019 - /tmp/app_trij4316 - INFO - User registration succeeded for user2@example.com
+2026-11-09 14:33:24,019 - /tmp/app_trij4316 - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR '1'='1
+2026-11-09 14:33:24,031 - /tmp/app_trij4316 - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR 1=1 -- 

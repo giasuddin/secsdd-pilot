@@ -1,0 +1,3 @@
+2026-11-09 14:29:20,929 - /tmp/app_z814d33c - WARNING - GET /entries/{entry_id} not 200: 404 NOT FOUND
+2026-11-09 14:29:20,931 - /tmp/app_z814d33c - WARNING - GET /entries/{entry_id} not 200: 404 NOT FOUND
+2026-11-09 14:29:20,933 - /tmp/app_z814d33c - WARNING - GET /entries/{entry_id} not 200: 404 NOT FOUND

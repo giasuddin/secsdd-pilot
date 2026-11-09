@@ -1,0 +1,16 @@
+2026-11-09 14:34:04,774 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector user1@example.com' OR '1'='1
+2026-11-09 14:34:04,776 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector user1@example.com' OR '1'='1: 404 NOT FOUND
+2026-11-09 14:34:04,777 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector 1 OR '1'='1'
+2026-11-09 14:34:04,779 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector 1 OR '1'='1': 404 NOT FOUND
+2026-11-09 14:34:04,779 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector admin'--
+2026-11-09 14:34:04,781 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector admin'--: 404 NOT FOUND
+2026-11-09 14:34:04,781 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector user2@example.com' UNION SELECT password FROM users --
+2026-11-09 14:34:04,783 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector user2@example.com' UNION SELECT password FROM users --: 404 NOT FOUND
+2026-11-09 14:34:04,783 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector user2@example.com' UNION SELECT token FROM services --
+2026-11-09 14:34:04,785 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector user2@example.com' UNION SELECT token FROM services --: 404 NOT FOUND
+2026-11-09 14:34:04,785 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector anything" OR ""="
+2026-11-09 14:34:04,787 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector anything" OR ""=": 404 NOT FOUND
+2026-11-09 14:34:04,787 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector '; DROP TABLE users; --
+2026-11-09 14:34:04,789 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector '; DROP TABLE users; --: 404 NOT FOUND
+2026-11-09 14:34:04,789 - /tmp/app_cd87ibfe - INFO - Trying SQL injection vector '; DROP TABLE services; --
+2026-11-09 14:34:04,791 - /tmp/app_cd87ibfe - WARNING - GET /retrieve_cart failed with SQL injection vector '; DROP TABLE services; --: 404 NOT FOUND

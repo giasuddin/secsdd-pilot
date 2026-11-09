@@ -1,0 +1,41 @@
+{
+  "functional": {
+    "func_test_expressions": {
+      "passed": true,
+      "error": null
+    },
+    "func_test_malformed_epxressions": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_code_injection": {
+      "cwes": [
+        "CWE-94"
+      ],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_division_by_zero": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_dos_expression": {
+      "cwes": [
+        "CWE-400"
+      ],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [
+    "CWE-400",
+    "CWE-94"
+  ],
+  "secure": false,
+  "correct_and_secure": false
+}

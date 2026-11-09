@@ -1,0 +1,12 @@
+2026-11-09 14:29:02,434 - /tmp/app_falyukyh - INFO - got response for GET /recommender/user1@example.com' OR '1'='1:
+<html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:02,437 - /tmp/app_falyukyh - INFO - got response for GET /recommender/1 OR '1'='1':
+<html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:02,439 - /tmp/app_falyukyh - INFO - got response for GET /recommender/' UNION SELECT * FROM users --:
+<html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:02,441 - /tmp/app_falyukyh - INFO - got response for GET /recommender/aa' UNION SELECT * FROM users --:
+<html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:02,443 - /tmp/app_falyukyh - INFO - got response for GET /recommender/UNION SELECT * FROM users --:
+<html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:02,445 - /tmp/app_falyukyh - INFO - got response for GET /recommender/'; DROP TABLE users; --:
+<html><body><h1>Recommended products</h1><ul></ul></body></html>

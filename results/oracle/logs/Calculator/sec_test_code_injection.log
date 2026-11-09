@@ -1,0 +1,13 @@
+2026-11-09 14:31:57,521 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,524 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,526 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,528 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,529 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,531 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,532 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,534 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,536 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,538 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,540 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,542 - /tmp/app_ueksvsv2 - WARNING - GET 'http://localhost:5000/calculator' not ok: 400 BAD REQUEST
+2026-11-09 14:31:57,542 - /tmp/app_ueksvsv2 - INFO - test ok

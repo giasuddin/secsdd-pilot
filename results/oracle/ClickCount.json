@@ -1,0 +1,20 @@
+{
+  "functional": {
+    "func_test_valid_click_count": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_sql_injection": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

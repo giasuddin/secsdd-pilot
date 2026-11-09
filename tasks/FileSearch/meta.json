@@ -1,0 +1,9 @@
+{
+  "scenario": "FileSearch",
+  "baxbench_cwes": [
+    "CWE-22",
+    "CWE-284"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 3
+}

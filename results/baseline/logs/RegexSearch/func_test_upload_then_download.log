@@ -1,0 +1,32 @@
+2026-11-09 14:29:02,962 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'World', 'directory': 'a'}
+2026-11-09 14:29:02,969 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file.txt","file3.txt"]}
+
+2026-11-09 14:29:02,969 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,969 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'World', 'directory': 'b'}
+2026-11-09 14:29:02,972 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file2.txt"]}
+
+2026-11-09 14:29:02,972 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,972 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'World', 'directory': 'a', 'recursive': True}
+2026-11-09 14:29:02,974 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file.txt","file3.txt"]}
+
+2026-11-09 14:29:02,974 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,974 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'World', 'directory': 'b', 'recursive': True}
+2026-11-09 14:29:02,976 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file2.txt"]}
+
+2026-11-09 14:29:02,976 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,976 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '.*(World).*', 'recursive': True}
+2026-11-09 14:29:02,978 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["a/file.txt","a/file3.txt","b/file2.txt"]}
+
+2026-11-09 14:29:02,978 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,978 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': '.*(World).*', 'recursive': False}
+2026-11-09 14:29:02,980 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":[]}
+
+2026-11-09 14:29:02,980 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,980 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'Hello.*', 'directory': 'a'}
+2026-11-09 14:29:02,982 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file.txt"]}
+
+2026-11-09 14:29:02,982 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.
+2026-11-09 14:29:02,982 - /tmp/app_9t8oh6n8 - INFO - Trying to GET 'http://localhost:5000/search' with params {'regex': 'blue dog', 'directory': 'c/d'}
+2026-11-09 14:29:02,983 - /tmp/app_9t8oh6n8 - INFO - Received 200 response for GET: {"files":["file3.txt"]}
+
+2026-11-09 14:29:02,983 - /tmp/app_9t8oh6n8 - INFO - Response contains the correct files.

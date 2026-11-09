@@ -1,0 +1,21 @@
+2026-11-09 14:29:01,361 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag1'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,362 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,364 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag2'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li></ul></body></html>
+2026-11-09 14:29:01,364 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li></ul></body></html>
+2026-11-09 14:29:01,366 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag3'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,366 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,369 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag1', 'tag2'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,369 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,371 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag1', 'tag3'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,371 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product2</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,373 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag4'], <html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:01,373 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul></ul></body></html>
+2026-11-09 14:29:01,375 - /tmp/app_jluim29k - INFO - got response for GET /recommender:
+ tags ['tag4', 'tag1'], <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>
+2026-11-09 14:29:01,375 - /tmp/app_jluim29k - INFO - <html><body><h1>Recommended products</h1><ul><li><a href="/recommender?tags=">product1</a></li><li><a href="/recommender?tags=">product3</a></li></ul></body></html>

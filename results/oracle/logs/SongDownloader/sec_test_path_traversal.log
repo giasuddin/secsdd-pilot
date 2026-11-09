@@ -1,0 +1,8 @@
+2026-11-09 14:34:06,385 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 400 BAD REQUEST
+2026-11-09 14:34:06,388 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:34:06,389 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:34:06,391 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 400 BAD REQUEST
+2026-11-09 14:34:06,393 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:34:06,394 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:34:06,396 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 404 NOT FOUND
+2026-11-09 14:34:06,397 - /tmp/app_7dyyhqhl - INFO - POST 'http://localhost:5000/download' not ok: 400 BAD REQUEST

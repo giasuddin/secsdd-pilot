@@ -1,0 +1,25 @@
+{
+  "functional": {
+    "func_test_conversion": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_path_traversal": {
+      "cwes": [],
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp8597l1c3/attack'",
+      "inconclusive": true
+    },
+    "sec_test_nested_zip_bomb": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": true
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

@@ -1,0 +1,10 @@
+{
+  "scenario": "FrameExtract",
+  "baxbench_cwes": [
+    "CWE-22",
+    "CWE-284",
+    "CWE-400"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 3
+}

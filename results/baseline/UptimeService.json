@@ -1,0 +1,34 @@
+{
+  "functional": {
+    "func_test_post_then_get": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_password_security": {
+      "cwes": [
+        "CWE-522"
+      ],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_sql_injection_services": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    },
+    "sec_test_sql_injection_heartbeat": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [
+    "CWE-522"
+  ],
+  "secure": false,
+  "correct_and_secure": false
+}

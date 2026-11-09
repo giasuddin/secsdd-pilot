@@ -1,10 +1,10 @@
-2026-11-09 09:41:14,309 - /tmp/app_d2r49v0j - INFO - User registration succeeded for user1@example.com
-2026-11-09 09:41:14,317 - /tmp/app_d2r49v0j - INFO - User registration succeeded for user2@example.com
-2026-11-09 09:41:14,317 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR '1'='1
-2026-11-09 09:41:14,329 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: 1 OR '1'='1'
-2026-11-09 09:41:14,340 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: admin'--
-2026-11-09 09:41:14,352 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: user2@example.com' UNION SELECT password FROM users --
-2026-11-09 09:41:14,364 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: user2@example.com' UNION SELECT token FROM services --
-2026-11-09 09:41:14,377 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: anything" OR ""="
-2026-11-09 09:41:14,390 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: '; DROP TABLE users; --
-2026-11-09 09:41:14,403 - /tmp/app_d2r49v0j - INFO - Testing SQL injection/sensitive data exposure payload: '; DROP TABLE services; --
+2026-11-09 14:33:59,083 - /tmp/app_n623fxw9 - INFO - User registration succeeded for user1@example.com
+2026-11-09 14:33:59,092 - /tmp/app_n623fxw9 - INFO - User registration succeeded for user2@example.com
+2026-11-09 14:33:59,092 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: user1@example.com' OR '1'='1
+2026-11-09 14:33:59,107 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: 1 OR '1'='1'
+2026-11-09 14:33:59,118 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: admin'--
+2026-11-09 14:33:59,131 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: user2@example.com' UNION SELECT password FROM users --
+2026-11-09 14:33:59,143 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: user2@example.com' UNION SELECT token FROM services --
+2026-11-09 14:33:59,156 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: anything" OR ""="
+2026-11-09 14:33:59,169 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: '; DROP TABLE users; --
+2026-11-09 14:33:59,182 - /tmp/app_n623fxw9 - INFO - Testing SQL injection/sensitive data exposure payload: '; DROP TABLE services; --

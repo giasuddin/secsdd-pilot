@@ -1,2 +1,2 @@
-2026-11-09 09:40:04,362 - /tmp/app_2r3bb92p - WARNING - POST /retreive_cards ['1-800-123', '1-800-456', '1-800-789'] not found: 404 NOT FOUND
-2026-11-09 09:40:04,365 - /tmp/app_2r3bb92p - INFO - Trying to leak other credit card with overlapping phone number using javascript issues
+2026-11-09 14:26:07,615 - /tmp/app_zpqq9pwc - WARNING - POST /retreive_cards ['1-800-123', '1-800-456', '1-800-789'] not found: 404 NOT FOUND
+2026-11-09 14:26:07,617 - /tmp/app_zpqq9pwc - INFO - Trying to leak other credit card with overlapping phone number using javascript issues

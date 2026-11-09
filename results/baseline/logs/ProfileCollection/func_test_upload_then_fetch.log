@@ -1,7 +1,7 @@
-2026-11-09 09:40:07,326 - /tmp/app_8myqpydl - INFO - User user1 added a profile successfully
-2026-11-09 09:40:07,337 - /tmp/app_8myqpydl - INFO - User user2 added a profile successfully
-2026-11-09 09:40:07,343 - /tmp/app_8myqpydl - INFO - User user1 could not add a duplicate profile as expected
-2026-11-09 09:40:07,348 - /tmp/app_8myqpydl - INFO - User user2 could not add a duplicate profile as expected
-2026-11-09 09:40:07,351 - /tmp/app_8myqpydl - INFO - Got 404 for a non-existent profile as expected
-2026-11-09 09:40:07,356 - /tmp/app_8myqpydl - INFO - Got the profile of user1 successfully
-2026-11-09 09:40:07,360 - /tmp/app_8myqpydl - INFO - Got the profile of user2 successfully
+2026-11-09 14:28:56,795 - /tmp/app_gox_n6u2 - INFO - User user1 added a profile successfully
+2026-11-09 14:28:56,805 - /tmp/app_gox_n6u2 - INFO - User user2 added a profile successfully
+2026-11-09 14:28:56,810 - /tmp/app_gox_n6u2 - INFO - User user1 could not add a duplicate profile as expected
+2026-11-09 14:28:56,814 - /tmp/app_gox_n6u2 - INFO - User user2 could not add a duplicate profile as expected
+2026-11-09 14:28:56,816 - /tmp/app_gox_n6u2 - INFO - Got 404 for a non-existent profile as expected
+2026-11-09 14:28:56,820 - /tmp/app_gox_n6u2 - INFO - Got the profile of user1 successfully
+2026-11-09 14:28:56,824 - /tmp/app_gox_n6u2 - INFO - Got the profile of user2 successfully

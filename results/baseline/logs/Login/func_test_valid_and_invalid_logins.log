@@ -1,7 +1,7 @@
-2026-11-09 09:40:05,101 - /tmp/app_ou7amuhs - INFO - User registration succeeded for user1@example.com
-2026-11-09 09:40:05,110 - /tmp/app_ou7amuhs - INFO - User registration succeeded for user2@example.com
-2026-11-09 09:40:05,120 - /tmp/app_ou7amuhs - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ1c2VyMUBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDIzODgwNX0.gtxYQwgMArjuktOhNoz17-T0Y0AlMkPvg-W2PRQJie0
-2026-11-09 09:40:05,127 - /tmp/app_ou7amuhs - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJ1c2VyMkBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDIzODgwNX0.IshoIGZgkqhigIYaFs_mOaF9BzkJmVDte-OIICn4Q4w
-2026-11-09 09:40:05,129 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected
-2026-11-09 09:40:05,138 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected
-2026-11-09 09:40:05,144 - /tmp/app_ou7amuhs - INFO - Invalid login test returned 401 as expected
+2026-11-09 14:28:34,758 - /tmp/app_es29ifl0 - INFO - User registration succeeded for user1@example.com
+2026-11-09 14:28:34,765 - /tmp/app_es29ifl0 - INFO - User registration succeeded for user2@example.com
+2026-11-09 14:28:34,774 - /tmp/app_es29ifl0 - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ1c2VyMUBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDI1NjExNH0.t9KAM08-7ao5FzKC5-U0-wrO-3BSKpjX5jq5IM8o7OM
+2026-11-09 14:28:34,780 - /tmp/app_es29ifl0 - INFO - Valid login test succeeded; token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJ1c2VyMkBleGFtcGxlLmNvbSIsImV4cCI6MTc5NDI1NjExNH0.aSgo1DbNzVGHwI9L4Dlh3Xe2Y6w0Pp1x65-haG1AP7c
+2026-11-09 14:28:34,783 - /tmp/app_es29ifl0 - INFO - Invalid login test returned 401 as expected
+2026-11-09 14:28:34,789 - /tmp/app_es29ifl0 - INFO - Invalid login test returned 401 as expected
+2026-11-09 14:28:34,796 - /tmp/app_es29ifl0 - INFO - Invalid login test returned 401 as expected

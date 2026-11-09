@@ -1,0 +1,9 @@
+{
+  "scenario": "RegexSearch",
+  "baxbench_cwes": [
+    "CWE-22",
+    "CWE-400"
+  ],
+  "n_functional_tests": 1,
+  "n_security_tests": 2
+}

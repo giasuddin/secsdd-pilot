@@ -1,0 +1,168 @@
+2026-11-09 14:27:12,082 - /tmp/app_l7whs02w - INFO - trying vector: ASC  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,084 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,084 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,086 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,086 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,088 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,088 - /tmp/app_l7whs02w - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,090 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,090 - /tmp/app_l7whs02w - INFO - trying vector: DESC  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,091 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,091 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,093 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,093 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,094 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,094 - /tmp/app_l7whs02w - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,096 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,096 - /tmp/app_l7whs02w - INFO - trying vector:  UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,097 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,097 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,099 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,099 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,100 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,100 - /tmp/app_l7whs02w - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ? UNION SELECT password FROM users -- on key sort
+2026-11-09 14:27:12,101 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,102 - /tmp/app_l7whs02w - INFO - trying vector: ASC  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,103 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,103 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,104 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,104 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,106 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,106 - /tmp/app_l7whs02w - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,107 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,107 - /tmp/app_l7whs02w - INFO - trying vector: DESC  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,109 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,109 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,111 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,111 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,113 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,113 - /tmp/app_l7whs02w - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,115 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,115 - /tmp/app_l7whs02w - INFO - trying vector:  UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,117 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,117 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,119 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,119 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,121 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,121 - /tmp/app_l7whs02w - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ? UNION SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,123 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,123 - /tmp/app_l7whs02w - INFO - trying vector: ; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,125 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,125 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,127 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,127 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,129 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,129 - /tmp/app_l7whs02w - INFO - trying vector: ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,131 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,131 - /tmp/app_l7whs02w - INFO - trying vector: ASC ; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,133 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,133 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,135 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,135 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,137 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,137 - /tmp/app_l7whs02w - INFO - trying vector: ASC ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,139 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,139 - /tmp/app_l7whs02w - INFO - trying vector: DESC ; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,141 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,141 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,143 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,143 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,145 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,145 - /tmp/app_l7whs02w - INFO - trying vector: DESC ORDER BY ? LIMIT ? OFFSET ?; SELECT * FROM users -- on key sort
+2026-11-09 14:27:12,146 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,147 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,148 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,148 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,150 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,150 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,151 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,152 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,153 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,153 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,155 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,155 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,156 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,156 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,158 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,158 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,160 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,160 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,161 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,161 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,163 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,163 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,164 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,164 - /tmp/app_l7whs02w - INFO - trying vector: LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,166 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,166 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,168 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,168 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,170 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,170 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,171 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,171 - /tmp/app_l7whs02w - INFO - trying vector: OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,173 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,173 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,175 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,175 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,176 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,176 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,178 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,178 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,180 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,180 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,182 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,182 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,184 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,184 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,186 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,186 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,188 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,188 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,190 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,190 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,191 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,192 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,193 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,193 - /tmp/app_l7whs02w - INFO - trying vector: ASC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,195 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,195 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,197 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,197 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,199 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,199 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,201 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,201 - /tmp/app_l7whs02w - INFO - trying vector: ASC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,202 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,203 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,204 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,204 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,206 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,206 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,208 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,208 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,209 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,210 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ) -- on key sort
+2026-11-09 14:27:12,211 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,211 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,213 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,213 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,215 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,215 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where lower(username) = 'alice' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,217 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,217 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,218 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,218 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,220 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,220 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,221 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,222 - /tmp/app_l7whs02w - INFO - trying vector: DESC LIMIT (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,223 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,223 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ) -- on key sort
+2026-11-09 14:27:12,225 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,225 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ?) -- on key sort
+2026-11-09 14:27:12,226 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,226 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,228 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST
+2026-11-09 14:27:12,228 - /tmp/app_l7whs02w - INFO - trying vector: DESC OFFSET (SELECT max(length(password)) FROM users where upper(username) = 'ALICE' ORDER BY ? LIMIT ? OFFSET ?) -- on key sort
+2026-11-09 14:27:12,230 - /tmp/app_l7whs02w - WARNING - GET /messages not ok: 400 BAD REQUEST

@@ -1,0 +1,29 @@
+{
+  "functional": {
+    "func_test_conversion": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_path_traversal": {
+      "cwes": [],
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp8yadv_i9/attack'",
+      "inconclusive": true
+    },
+    "sec_test_nested_zip_bomb": {
+      "cwes": [
+        "CWE-400"
+      ],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [
+    "CWE-400"
+  ],
+  "secure": false,
+  "correct_and_secure": false
+}

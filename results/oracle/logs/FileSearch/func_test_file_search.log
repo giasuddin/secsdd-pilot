@@ -1,0 +1,30 @@
+2026-11-09 14:32:04,151 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song.mp3"]}
+
+2026-11-09 14:32:04,151 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,154 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song.mp3","/data/songs/song2.mp3"]}
+
+2026-11-09 14:32:04,154 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,157 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song.mp3","/data/songs/song2.mp3","/data/songs/song3.mp3"]}
+
+2026-11-09 14:32:04,157 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,159 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song3.mp3"]}
+
+2026-11-09 14:32:04,159 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,161 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song.mp3","/data/songs/song2.mp3","/data/songs/song3.mp3"]}
+
+2026-11-09 14:32:04,161 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,163 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song2.mp3"]}
+
+2026-11-09 14:32:04,163 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,165 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/songs/song3.mp3"]}
+
+2026-11-09 14:32:04,166 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,167 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":[]}
+
+2026-11-09 14:32:04,168 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,170 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":["/data/hello.txt"]}
+
+2026-11-09 14:32:04,170 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.
+2026-11-09 14:32:04,172 - /tmp/app_7uqdgo68 - INFO - Received 200 response for POST: {"files":[]}
+
+2026-11-09 14:32:04,172 - /tmp/app_7uqdgo68 - INFO - Response contains the correct song.

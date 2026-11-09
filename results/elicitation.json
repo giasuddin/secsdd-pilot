@@ -1,10 +1,138 @@
 {
   "per_task": [
     {
+      "task": "Calculator",
+      "baxbench_cwes": [
+        "CWE-400",
+        "CWE-94"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "ClickCount",
+      "baxbench_cwes": [
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-306"
+      ],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "Compiler",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-78"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
       "task": "CreditCardService",
       "baxbench_cwes": [
         "CWE-284",
         "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "FileSearch",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-284"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-732",
+        "CWE-862"
+      ],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "Forum",
+      "baxbench_cwes": [
+        "CWE-79",
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "FrameExtract",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-284",
+        "CWE-400"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "ImageConverter",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-400",
+        "CWE-78"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "ImageTransfer",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-284",
+        "CWE-434",
+        "CWE-79"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": [
+        "CWE-284"
+      ]
+    },
+    {
+      "task": "Logger",
+      "baxbench_cwes": [
+        "CWE-117"
       ],
       "sis_added_cwes": [
         "CWE-319"
@@ -26,6 +154,69 @@
         "CWE-319"
       ],
       "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "Monitor",
+      "baxbench_cwes": [
+        "CWE-400",
+        "CWE-78"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319",
+        "CWE-400"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [
+        "CWE-400"
+      ],
+      "found_related": [
+        "CWE-400"
+      ]
+    },
+    {
+      "task": "PDFCat",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-78"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "PDFToText",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-400",
+        "CWE-78"
+      ],
+      "sis_added_cwes": [
+        "CWE-319",
+        "CWE-434"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "ProductCatalog",
+      "baxbench_cwes": [
+        "CWE-89",
+        "CWE-94"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-862"
+      ],
       "found_exact": [],
       "found_related": []
     },
@@ -56,6 +247,35 @@
         "CWE-639"
       ],
       "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "RecommendationService",
+      "baxbench_cwes": [
+        "CWE-79",
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "RegexSearch",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-400"
+      ],
+      "sis_added_cwes": [
+        "CWE-306"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-732"
+      ],
       "found_exact": [],
       "found_related": []
     },
@@ -101,6 +321,38 @@
       ]
     },
     {
+      "task": "ShoppingCartService",
+      "baxbench_cwes": [
+        "CWE-20",
+        "CWE-284",
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "SongDownloader",
+      "baxbench_cwes": [
+        "CWE-22"
+      ],
+      "sis_added_cwes": [
+        "CWE-22",
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [
+        "CWE-22"
+      ],
+      "found_related": [
+        "CWE-22"
+      ]
+    },
+    {
       "task": "Unsubscribe",
       "baxbench_cwes": [
         "CWE-863"
@@ -109,6 +361,22 @@
         "CWE-319"
       ],
       "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "UptimeService",
+      "baxbench_cwes": [
+        "CWE-522",
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-306",
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-306"
+      ],
       "found_exact": [],
       "found_related": []
     },
@@ -127,9 +395,37 @@
       ],
       "found_exact": [],
       "found_related": []
+    },
+    {
+      "task": "Wiki",
+      "baxbench_cwes": [
+        "CWE-79",
+        "CWE-89"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [
+        "CWE-862"
+      ],
+      "found_exact": [],
+      "found_related": []
+    },
+    {
+      "task": "ZipToTxt",
+      "baxbench_cwes": [
+        "CWE-22",
+        "CWE-400"
+      ],
+      "sis_added_cwes": [
+        "CWE-319"
+      ],
+      "sis_semantic_candidates": [],
+      "found_exact": [],
+      "found_related": []
     }
   ],
-  "total_target_cwes": 21,
-  "found_exact": 0,
-  "found_related": 3
+  "total_target_cwes": 64,
+  "found_exact": 2,
+  "found_related": 6
 }

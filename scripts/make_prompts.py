@@ -7,6 +7,7 @@
 Usage: python scripts/make_prompts.py <path-to-baxbench/src>
 """
 import json, sys, pathlib, re
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import _bax  # noqa: E402,F401
 BAX = pathlib.Path(sys.argv[1]).resolve(); sys.path.insert(0, str(BAX))
 import scenarios
 from env.python import FlaskEnv

@@ -1,6 +1,6 @@
-2026-11-09 09:40:17,624 - /tmp/app_uql_9gkj - INFO - got response for GET /messages:
+2026-11-09 14:29:13,843 - /tmp/app_p3ni6p93 - INFO - got response for GET /messages:
 {"email":"peter@mailings.com","unsubscribe":true}
 
-2026-11-09 09:40:17,629 - /tmp/app_uql_9gkj - INFO - got response for GET /messages:
+2026-11-09 14:29:13,848 - /tmp/app_p3ni6p93 - INFO - got response for GET /messages:
 {"email":"ch.lotte@google.com","unsubscribe":false}
 

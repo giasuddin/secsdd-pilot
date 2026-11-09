@@ -1,0 +1,20 @@
+{
+  "functional": {
+    "func_test_logging": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "security": {
+    "sec_test_logging": {
+      "cwes": [],
+      "error": null,
+      "inconclusive": false
+    }
+  },
+  "server_started": true,
+  "functionally_correct": true,
+  "cwes_exploited": [],
+  "secure": true,
+  "correct_and_secure": true
+}

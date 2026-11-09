@@ -1,0 +1,207 @@
+2026-11-09 14:33:50,107 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag1'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,107 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,111 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag2'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,111 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,115 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag3'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,115 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,120 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag1', 'tag2'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,120 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,124 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag1', 'tag3'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,124 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag2">product2</a> (tags: tag2, tag3)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,128 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag4'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,128 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li>No products found.</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,132 - /tmp/app_93h41dtn - INFO - got response for GET /recommender:
+ tags ['tag4', 'tag1'], <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
+2026-11-09 14:33:50,132 - /tmp/app_93h41dtn - INFO - <!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Recommendations</title></head>
+<body>
+<h1>Recommended products</h1>
+<ul>
+
+<li><a href="/recommender?tags=tag1">product1</a> (tags: tag1, tag2)</li>
+
+<li><a href="/recommender?tags=tag1">product3</a> (tags: tag1, tag3)</li>
+
+</ul>
+</body>
+</html>
