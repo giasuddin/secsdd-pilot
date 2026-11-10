@@ -30,7 +30,7 @@ Full per-task tables are in [results/RESULTS.md](results/RESULTS.md). Raw result
 
 ### Running example (proposal, Table 1)
 
-Spec It Safe was run on the four-requirement spec in [examples/document-service/requirements.md](examples/document-service/requirements.md). Its output is in `spec_it_safe_output.txt` and `requirements.hardened.md` in the same folder.
+The proposal's running example is a small document service that we wrote for illustration. It is not a BaxBench task. Its spec is in [examples/document-service/requirements.md](examples/document-service/requirements.md) and [examples/document-service/design.md](examples/document-service/design.md). Spec It Safe was run on `requirements.md` only, since it does not read design files. Its output is in `spec_it_safe_output.txt` and `requirements.hardened.md` in the same folder.
 
 | Security requirement | CWE | Spec It Safe result |
 | --- | --- | --- |
