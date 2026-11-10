@@ -1,6 +1,6 @@
 # SecSDD pilot: does spec hardening make agent-written code more secure?
 
-This repository holds a small pilot study for the SecSpec proposal (Amazon Research Awards, Fall 2026). It asks two questions on all 28 [BaxBench](https://github.com/logic-star-ai/baxbench) scenarios:
+This repository holds a small pilot study for the SecSpec proposal. It asks two questions on all 28 [BaxBench](https://github.com/logic-star-ai/baxbench) scenarios:
 
 1. **Elicitation.** When [Spec It Safe](https://github.com/aws-samples/sample-kiro-spec-security-hardening) hardens a functional EARS spec, does it add the security requirements that BaxBench's exploits actually test?
 2. **Effect on code.** Does giving a code generator Spec It Safe's added security lines change how many generated apps are correct and secure?
