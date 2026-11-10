@@ -30,7 +30,7 @@ Full per-task tables are in [results/RESULTS.md](results/RESULTS.md). Raw result
 
 ### Running example (proposal, Table 1)
 
-The proposal's running example is a small document service that we wrote for illustration. It is not a BaxBench task. Its spec is in [examples/document-service/requirements.md](examples/document-service/requirements.md) and [examples/document-service/design.md](examples/document-service/design.md). Spec It Safe was run on `requirements.md` only, since it does not read design files. Its output is in `spec_it_safe_output.txt` and `requirements.hardened.md` in the same folder.
+The proposal's running example is a small document service that we wrote for illustration. It is not a BaxBench task. Its spec is in [examples/document-service/requirements.md](examples/document-service/requirements.md) and [examples/document-service/design.md](examples/document-service/design.md). Spec It Safe was run on `requirements.md` only, since it does not read design files. Its output is in `spec_it_safe_output.txt` and `requirements.hardened.md` in the same folder. No application code was generated for this example; only Spec It Safe was run on it.
 
 | Security requirement | CWE | Spec It Safe result |
 | --- | --- | --- |
@@ -98,12 +98,13 @@ python scripts/run_tests.py baxbench/src baseline sis oracle
 python scripts/summarize.py
 ```
 
-To rerun Spec It Safe on the running example:
+To rerun both Spec It Safe runs on the running example (run 1: `--semantic-candidates`; run 2: adds `--semantic-all`):
 
 ```bash
-cp examples/document-service/requirements.md /tmp/req.md
-node sis/cwe-to-spec-mapping-library/dist/cli/harden-requirements.js --semantic-candidates /tmp/req.md
+bash scripts/run_running_example.sh sis
 ```
+
+See [examples/document-service/README.md](examples/document-service/README.md) for what each file contains. We reran both runs at commit 2a3a002 and they match the stored outputs exactly.
 
 ## Threats to validity
 
